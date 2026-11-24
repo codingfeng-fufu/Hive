@@ -1,0 +1,29 @@
+encoder:
+  model: google/siglip-so400m-patch14-384
+  revision: 9fdffc58afc957d1a03a25b10dba0329ab15c2a3
+  device: auto
+  batch_size: 8
+graph:
+  tau_text: 0.85
+  tau_split: 0.60
+  tau_merge: 0.85
+  alias_page_window: 1
+  alias_context_min: 0.55
+  macro_edge_min: 0.45
+  macro_neighbors: 4
+  micro_neighbors: 4
+  superhub_degree: 20
+  enable_split: true
+  enable_bridge: true
+retrieval:
+  lambda_lex: 0.65
+  tau_zoom: 0.55
+  temperature: 0.10
+  visual_weight: 0.40
+  query_image_weight: 0.50
+  top_parents: 2
+  macro_k: 6
+  micro_k: 8
+  ppr_alpha: 0.85
+  native_crop: true
+dpi: 250

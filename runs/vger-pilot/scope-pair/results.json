@@ -1,0 +1,4086 @@
+{
+  "annotation_sha256": "f8a613c66c79df1bb98f5ee8f3ba86265869059696d8edac15d9e5b5b61dce5e",
+  "seed": 42,
+  "text_model": "data/models/bge-small-en-v1.5",
+  "development_pairs": 41,
+  "heldout_pairs": 41,
+  "summary": {
+    "scoped_text": {
+      "same_name_different_n": 4,
+      "false_merge_n": 1,
+      "same_name_same_n": 7,
+      "retained_n": 4,
+      "alias_true_n": 9,
+      "alias_predicted_n": 24,
+      "alias_correct_n": 9,
+      "alias_precision": 0.375,
+      "alias_recall": 1.0,
+      "development_cutoffs": {
+        "same": 0.8080729842185974,
+        "different": 0.6363688111305237
+      },
+      "heldout_auc": {
+        "same": 0.75,
+        "different": 0.7354497354497355
+      }
+    },
+    "scoped_text_figure": {
+      "same_name_different_n": 4,
+      "false_merge_n": 1,
+      "same_name_same_n": 7,
+      "retained_n": 3,
+      "alias_true_n": 9,
+      "alias_predicted_n": 13,
+      "alias_correct_n": 8,
+      "alias_precision": 0.6153846153846154,
+      "alias_recall": 0.8888888888888888,
+      "development_cutoffs": {
+        "same": 0.8899561166763306,
+        "different": 0.7517801821231842
+      },
+      "heldout_auc": {
+        "same": 0.6785714285714286,
+        "different": 0.8306878306878307
+      }
+    },
+    "scoped_text_crop": {
+      "same_name_different_n": 4,
+      "false_merge_n": 1,
+      "same_name_same_n": 7,
+      "retained_n": 7,
+      "alias_true_n": 9,
+      "alias_predicted_n": 20,
+      "alias_correct_n": 9,
+      "alias_precision": 0.45,
+      "alias_recall": 1.0,
+      "development_cutoffs": {
+        "same": 0.7440875470638275,
+        "different": 0.6715646088123322
+      },
+      "heldout_auc": {
+        "same": 0.75,
+        "different": 0.8412698412698413
+      }
+    }
+  },
+  "rows": [
+    {
+      "document": "2021-Apple-Catalog",
+      "split": "development",
+      "stratum": "same_name_different",
+      "same_region": false,
+      "left_entity": "pencil",
+      "left_label": "2",
+      "left_figure": "standard",
+      "left_page": 18,
+      "left_bbox": [
+        109,
+        637,
+        365,
+        832
+      ],
+      "left_figure_bbox": [
+        64,
+        299,
+        960,
+        851
+      ],
+      "right_entity": "secure_keyboard",
+      "right_label": "2",
+      "right_figure": "secured",
+      "right_page": 19,
+      "right_bbox": [
+        74,
+        458,
+        483,
+        566
+      ],
+      "right_figure_bbox": [
+        54,
+        313,
+        955,
+        895
+      ],
+      "text": 1.0,
+      "figure": 0.8564930558204651,
+      "crop": 0.6334948539733887,
+      "left_source_context": "2\nZA2720-W\nkeyboard to iPad for demonstration methods\nMagic Keyboard available, enables power via\nAlternative mounting option for sensor on\n3\nsolution.",
+      "right_source_context": "2\n1\n3\n3 Configured with Type C cable\nplacements of 11\u201d & 12.9\u201d iPad Pro\nunder-table to OneKEY Padlock for added\n6",
+      "scoped_text": 0.6825721859931946,
+      "scoped_text_figure": 0.7695326209068298,
+      "scoped_text_crop": 0.6580335199832916,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "2021-Apple-Catalog",
+      "split": "development",
+      "stratum": "same_name_different",
+      "same_region": false,
+      "left_entity": "pencil",
+      "left_label": "2",
+      "left_figure": "standard",
+      "left_page": 18,
+      "left_bbox": [
+        109,
+        637,
+        365,
+        832
+      ],
+      "left_figure_bbox": [
+        64,
+        299,
+        960,
+        851
+      ],
+      "right_entity": "wedge_pedestal",
+      "right_label": "2",
+      "right_figure": "digital",
+      "right_page": 16,
+      "right_bbox": [
+        449,
+        405,
+        667,
+        533
+      ],
+      "right_figure_bbox": [
+        80,
+        261,
+        944,
+        696
+      ],
+      "text": 1.0,
+      "figure": 0.639764666557312,
+      "crop": 0.5372779369354248,
+      "left_source_context": "2\nZA2720-W\nkeyboard to iPad for demonstration methods\nMagic Keyboard available, enables power via\nAlternative mounting option for sensor on\n3\nsolution.",
+      "right_source_context": "2\n5\n4\ncharging. Installed separately through tether\nmode for display\n3",
+      "scoped_text": 0.5540934801101685,
+      "scoped_text_figure": 0.5969290733337402,
+      "scoped_text_crop": 0.5456857085227966,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "2021-Apple-Catalog",
+      "split": "development",
+      "stratum": "same_name_different",
+      "same_region": false,
+      "left_entity": "standard_cable",
+      "left_label": "1",
+      "left_figure": "standard",
+      "left_page": 18,
+      "left_bbox": [
+        495,
+        310,
+        890,
+        545
+      ],
+      "left_figure_bbox": [
+        64,
+        299,
+        960,
+        851
+      ],
+      "right_entity": "threaded_connection",
+      "right_label": "1",
+      "right_figure": "secured",
+      "right_page": 19,
+      "right_bbox": [
+        69,
+        325,
+        489,
+        575
+      ],
+      "right_figure_bbox": [
+        54,
+        313,
+        955,
+        895
+      ],
+      "text": 1.0000001192092896,
+      "figure": 0.8564930558204651,
+      "crop": 0.783779501914978,
+      "left_source_context": "1\nZA3200-W\nsingle cable secured to the device with minimal\nand allows keyboard to be removed from iPad.\nAllows Apple Pencil to be mounted on iPad for\nZA2720-W\nsolution.",
+      "right_source_context": "1\n3 Configured with Type C cable\nplacements of 11\u201d & 12.9\u201d iPad Pro\n2\nstrength\nunder-table to OneKEY Padlock for added\n6",
+      "scoped_text": 0.6900942921638489,
+      "scoped_text_figure": 0.773293673992157,
+      "scoped_text_crop": 0.7369368970394135,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "2021-Apple-Catalog",
+      "split": "development",
+      "stratum": "same_name_same",
+      "same_region": false,
+      "left_entity": "iphone_display",
+      "left_label": "iPhone",
+      "left_figure": "phones_6",
+      "left_page": 6,
+      "left_bbox": [
+        69,
+        282,
+        445,
+        609
+      ],
+      "left_figure_bbox": [
+        45,
+        266,
+        963,
+        649
+      ],
+      "right_entity": "iphone_display",
+      "right_label": "iPhone",
+      "right_figure": "phones_7",
+      "right_page": 7,
+      "right_bbox": [
+        69,
+        282,
+        445,
+        609
+      ],
+      "right_figure_bbox": [
+        45,
+        266,
+        963,
+        649
+      ],
+      "text": 0.9999998807907104,
+      "figure": 1.0,
+      "crop": 1.0,
+      "left_source_context": "iPhone\niPhone & iPad Solutions\nCOMPATIBILITY\nSECURITY TIER: LITE\niPhone SE\niPhone 13",
+      "right_source_context": "iPhone\niPhone & iPad Solutions\nCOMPATIBILITY\nIPHONE & IPAD SOLUTIONS\niPhone SE\niPhone 13",
+      "scoped_text": 0.8776445388793945,
+      "scoped_text_figure": 0.9388222694396973,
+      "scoped_text_crop": 0.9388222694396973,
+      "scoped_text_decision": "merge",
+      "scoped_text_figure_decision": "merge",
+      "scoped_text_crop_decision": "merge"
+    },
+    {
+      "document": "2021-Apple-Catalog",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "iphone_display",
+      "left_label": "iPhone",
+      "left_figure": "phones_7",
+      "left_page": 7,
+      "left_bbox": [
+        69,
+        282,
+        445,
+        609
+      ],
+      "left_figure_bbox": [
+        45,
+        266,
+        963,
+        649
+      ],
+      "right_entity": "standard_cable",
+      "right_label": "1",
+      "right_figure": "standard",
+      "right_page": 18,
+      "right_bbox": [
+        495,
+        310,
+        890,
+        545
+      ],
+      "right_figure_bbox": [
+        64,
+        299,
+        960,
+        851
+      ],
+      "text": 0.6185920238494873,
+      "figure": 0.7269196510314941,
+      "crop": 0.6732118129730225,
+      "left_source_context": "iPhone\niPhone & iPad Solutions\nCOMPATIBILITY\nIPHONE & IPAD SOLUTIONS\niPhone SE\niPhone 13",
+      "right_source_context": "1\nZA3200-W\nsingle cable secured to the device with minimal\nand allows keyboard to be removed from iPad.\nAllows Apple Pencil to be mounted on iPad for\nZA2720-W\nsolution.",
+      "scoped_text": 0.5920047760009766,
+      "scoped_text_figure": 0.6594622135162354,
+      "scoped_text_crop": 0.6326082944869995,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "2021-Apple-Catalog",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "threaded_connection",
+      "left_label": "1",
+      "left_figure": "secured",
+      "left_page": 19,
+      "left_bbox": [
+        69,
+        325,
+        489,
+        575
+      ],
+      "left_figure_bbox": [
+        54,
+        313,
+        955,
+        895
+      ],
+      "right_entity": "wedge_pedestal",
+      "right_label": "Wedge display pedestal",
+      "right_figure": "digital",
+      "right_page": 16,
+      "right_bbox": [
+        449,
+        405,
+        667,
+        533
+      ],
+      "right_figure_bbox": [
+        80,
+        261,
+        944,
+        696
+      ],
+      "text": 0.4442939758300781,
+      "figure": 0.7666890025138855,
+      "crop": 0.6147888898849487,
+      "left_source_context": "1\n3 Configured with Type C cable\nplacements of 11\u201d & 12.9\u201d iPad Pro\n2\nstrength\nunder-table to OneKEY Padlock for added\n6",
+      "right_source_context": "Wedge display pedestal\n5\n4\n2\ncharging. Installed separately through tether\nmode for display\n3",
+      "scoped_text": 0.5837891101837158,
+      "scoped_text_figure": 0.6752390563488007,
+      "scoped_text_crop": 0.5992890000343323,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "2021-Apple-Catalog",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "standard_cable",
+      "left_label": "single cable",
+      "left_figure": "standard",
+      "left_page": 18,
+      "left_bbox": [
+        495,
+        310,
+        890,
+        545
+      ],
+      "left_figure_bbox": [
+        64,
+        299,
+        960,
+        851
+      ],
+      "right_entity": "threaded_connection",
+      "right_label": "1",
+      "right_figure": "secured",
+      "right_page": 19,
+      "right_bbox": [
+        69,
+        325,
+        489,
+        575
+      ],
+      "right_figure_bbox": [
+        54,
+        313,
+        955,
+        895
+      ],
+      "text": 0.5443300008773804,
+      "figure": 0.8564930558204651,
+      "crop": 0.783779501914978,
+      "left_source_context": "single cable\n1\nZA3200-W\nsingle cable secured to the device with minimal\nand allows keyboard to be removed from iPad.\nAllows Apple Pencil to be mounted on iPad for\nZA2720-W\nsolution.",
+      "right_source_context": "1\n3 Configured with Type C cable\nplacements of 11\u201d & 12.9\u201d iPad Pro\n2\nstrength\nunder-table to OneKEY Padlock for added\n6",
+      "scoped_text": 0.702284574508667,
+      "scoped_text_figure": 0.779388815164566,
+      "scoped_text_crop": 0.7430320382118225,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "2305.13186v3",
+      "split": "heldout",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "claim_ui",
+      "left_label": "Figure 5",
+      "left_figure": "extraction",
+      "left_page": 15,
+      "left_bbox": [
+        145,
+        113,
+        857,
+        395
+      ],
+      "left_figure_bbox": [
+        115,
+        102,
+        883,
+        458
+      ],
+      "right_entity": "d_case",
+      "right_label": "values in the claim do not match",
+      "right_figure": "cases10",
+      "right_page": 23,
+      "right_bbox": [
+        182,
+        269,
+        805,
+        464
+      ],
+      "right_figure_bbox": [
+        170,
+        262,
+        813,
+        693
+      ],
+      "text": 0.6836369633674622,
+      "figure": 0.5458478927612305,
+      "crop": 0.5365927219390869,
+      "left_source_context": "Figure 5\nFigure 5: The user interface for the claim extraction task.\nFigure 6: The user interface for the NEI claim verification task.\n\u201cIlliCons_winocoref = 74.32\u201d respectively. Ad-\nparse other baseline results, such as \u2018SFEGAN_WER\nditionally, the \u201c>\u201d operation should be changed to",
+      "right_source_context": "values in the claim do not match\nD. The values in the claim do not match.\nClaim: Our single model achieves 27.6 BLEU points, which is the new state-of-the-art\nresult for single models.\nE. The operation type is wrong.\nClaim: GCN+RC+LA (9) is better than DCGCN1.",
+      "scoped_text": 0.7083533406257629,
+      "scoped_text_figure": 0.6271006166934967,
+      "scoped_text_crop": 0.6224730312824249,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "2305.13186v3",
+      "split": "heldout",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "refuted_ui",
+      "left_label": "refuted claim verification task",
+      "left_figure": "refuted",
+      "left_page": 16,
+      "left_bbox": [
+        145,
+        113,
+        857,
+        404
+      ],
+      "left_figure_bbox": [
+        115,
+        100,
+        883,
+        473
+      ],
+      "right_entity": "d_case",
+      "right_label": "Case D",
+      "right_figure": "cases10",
+      "right_page": 23,
+      "right_bbox": [
+        182,
+        269,
+        805,
+        464
+      ],
+      "right_figure_bbox": [
+        170,
+        262,
+        813,
+        693
+      ],
+      "text": 0.6028151512145996,
+      "figure": 0.5401887893676758,
+      "crop": 0.5926708579063416,
+      "left_source_context": "refuted claim verification task\nFigure 7: The user interface for the refuted claim verification task\nstance, \u201cG2S_GAT_BLEU_LDC2015E86\u201d should be\n\u201cG2S_GIN_BLEU_LDC2015E86\u201d. The logical func-\ntion \u201cand\u201d should be replaced with \u201cor\u201d.\nError Case 4.",
+      "right_source_context": "Case D\nD. The values in the claim do not match.\nClaim: Our single model achieves 27.6 BLEU points, which is the new state-of-the-art\nresult for single models.\nE. The operation type is wrong.\nClaim: GCN+RC+LA (9) is better than DCGCN1.",
+      "scoped_text": 0.7131448984146118,
+      "scoped_text_figure": 0.6266668438911438,
+      "scoped_text_crop": 0.6529078781604767,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "2305.13186v3",
+      "split": "heldout",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "refuted_ui",
+      "left_label": "refuted claim verification task",
+      "left_figure": "refuted",
+      "left_page": 16,
+      "left_bbox": [
+        145,
+        113,
+        857,
+        404
+      ],
+      "left_figure_bbox": [
+        115,
+        100,
+        883,
+        473
+      ],
+      "right_entity": "a_case",
+      "right_label": "Case A",
+      "right_figure": "cases9",
+      "right_page": 22,
+      "right_bbox": [
+        181,
+        121,
+        804,
+        319
+      ],
+      "right_figure_bbox": [
+        170,
+        106,
+        813,
+        890
+      ],
+      "text": 0.5994474291801453,
+      "figure": 0.5692012906074524,
+      "crop": 0.5932791829109192,
+      "left_source_context": "refuted claim verification task\nFigure 7: The user interface for the refuted claim verification task\nstance, \u201cG2S_GAT_BLEU_LDC2015E86\u201d should be\n\u201cG2S_GIN_BLEU_LDC2015E86\u201d. The logical func-\ntion \u201cand\u201d should be replaced with \u201cor\u201d.\nError Case 4.",
+      "right_source_context": "Case A\nA. The calculation result is wrong.\nClaim: For example, the single DCGCN model gains 5.9 more BLEU points than the single\nmodels of Seq2SeqB on AMR17.\nB. The approximation word is wrong.\nClaim: However, when we set the number to 18, GCN+RC+LA achieves a BLEU score of 19.4,",
+      "scoped_text": 0.6477369070053101,
+      "scoped_text_figure": 0.6084690988063812,
+      "scoped_text_crop": 0.6205080449581146,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "2305.13186v3",
+      "split": "heldout",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "nei_ui",
+      "left_label": "NEI claim verification task",
+      "left_figure": "nei",
+      "left_page": 15,
+      "left_bbox": [
+        145,
+        520,
+        857,
+        845
+      ],
+      "left_figure_bbox": [
+        115,
+        506,
+        883,
+        901
+      ],
+      "right_entity": "refuted_ui",
+      "right_label": "refuted claim verification task",
+      "right_figure": "refuted",
+      "right_page": 16,
+      "right_bbox": [
+        145,
+        113,
+        857,
+        404
+      ],
+      "right_figure_bbox": [
+        115,
+        100,
+        883,
+        473
+      ],
+      "text": 0.8908733129501343,
+      "figure": 0.7653071284294128,
+      "crop": 0.7507731914520264,
+      "left_source_context": "NEI claim verification task\nFigure 6: The user interface for the NEI claim verification task.\n\u201cIlliCons_winocoref = 74.32\u201d respectively. Ad-\nparse other baseline results, such as \u2018SFEGAN_WER\nditionally, the \u201c>\u201d operation should be changed to\n= 14.9\u201d.\ning (Grounding error). The program should also\nfunctions in the programs are incorrect. For in-",
+      "right_source_context": "refuted claim verification task\nFigure 7: The user interface for the refuted claim verification task\nstance, \u201cG2S_GAT_BLEU_LDC2015E86\u201d should be\n\u201cG2S_GIN_BLEU_LDC2015E86\u201d. The logical func-\ntion \u201cand\u201d should be replaced with \u201cor\u201d.\nError Case 4.",
+      "scoped_text": 0.7492834329605103,
+      "scoped_text_figure": 0.7572952806949615,
+      "scoped_text_crop": 0.7500283122062683,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "2305.13186v3",
+      "split": "heldout",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "nei_ui",
+      "left_label": "Figure 6",
+      "left_figure": "nei",
+      "left_page": 15,
+      "left_bbox": [
+        145,
+        520,
+        857,
+        845
+      ],
+      "left_figure_bbox": [
+        115,
+        506,
+        883,
+        901
+      ],
+      "right_entity": "d_case",
+      "right_label": "Case D",
+      "right_figure": "cases10",
+      "right_page": 23,
+      "right_bbox": [
+        182,
+        269,
+        805,
+        464
+      ],
+      "right_figure_bbox": [
+        170,
+        262,
+        813,
+        693
+      ],
+      "text": 0.6539080142974854,
+      "figure": 0.5686716437339783,
+      "crop": 0.545636773109436,
+      "left_source_context": "Figure 6\nFigure 6: The user interface for the NEI claim verification task.\n\u201cIlliCons_winocoref = 74.32\u201d respectively. Ad-\nparse other baseline results, such as \u2018SFEGAN_WER\nditionally, the \u201c>\u201d operation should be changed to\n= 14.9\u201d.\ning (Grounding error). The program should also\nfunctions in the programs are incorrect. For in-",
+      "right_source_context": "Case D\nD. The values in the claim do not match.\nClaim: Our single model achieves 27.6 BLEU points, which is the new state-of-the-art\nresult for single models.\nE. The operation type is wrong.\nClaim: GCN+RC+LA (9) is better than DCGCN1.",
+      "scoped_text": 0.691197395324707,
+      "scoped_text_figure": 0.6299345195293427,
+      "scoped_text_crop": 0.6184170842170715,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "2405.09818v1",
+      "split": "heldout",
+      "stratum": "same_name_different",
+      "same_region": false,
+      "left_entity": "instability",
+      "left_label": "(a)",
+      "left_figure": "fig2",
+      "left_page": 6,
+      "left_bbox": [
+        117,
+        84,
+        372,
+        240
+      ],
+      "left_figure_bbox": [
+        91,
+        83,
+        907,
+        325
+      ],
+      "right_entity": "text_demo",
+      "right_label": "(a)",
+      "right_figure": "fig5",
+      "right_page": 10,
+      "right_bbox": [
+        49,
+        63,
+        444,
+        385
+      ],
+      "right_figure_bbox": [
+        47,
+        61,
+        930,
+        814
+      ],
+      "text": 0.9999999403953552,
+      "figure": 0.43124645948410034,
+      "crop": 0.38725030422210693,
+      "left_source_context": "(a)\n35.0\nw/ QK-norm and dropout\n30.0\nw/o dropout\nw/o QK-norm or dropout\nlicensed data. The images are then resized and center cropped into 512 \u00d7 512 images for tokenization. In\ntotal, we include 1.4 billion text-image pairs, which produces 1.5 trillion text-image tokens.",
+      "right_source_context": "(a)\nPrompt: Can you write a poem using\nrhyming couplets?\nResponse:\nSure, here\u2019s a short poem\nusing rhyming couplets:\nsequence, inserting a distinct token to delineate the end of a prompt and the beginning of an answer. We\nuse an autoregressive training objective, selectively masking the loss for the prompt tokens. This targeted",
+      "scoped_text": 0.577494740486145,
+      "scoped_text_figure": 0.5043705999851227,
+      "scoped_text_crop": 0.482372522354126,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "2405.09818v1",
+      "split": "heldout",
+      "stratum": "same_name_different",
+      "same_region": false,
+      "left_entity": "instability",
+      "left_label": "(a)",
+      "left_figure": "fig2",
+      "left_page": 6,
+      "left_bbox": [
+        117,
+        84,
+        372,
+        240
+      ],
+      "left_figure_bbox": [
+        91,
+        83,
+        907,
+        325
+      ],
+      "right_entity": "loss_600k",
+      "right_label": "(a)",
+      "right_figure": "fig3",
+      "right_page": 7,
+      "right_bbox": [
+        116,
+        84,
+        371,
+        240
+      ],
+      "right_figure_bbox": [
+        91,
+        83,
+        907,
+        325
+      ],
+      "text": 0.9999999403953552,
+      "figure": 0.9000566005706787,
+      "crop": 0.7382541298866272,
+      "left_source_context": "(a)\n35.0\nw/ QK-norm and dropout\n30.0\nw/o dropout\nw/o QK-norm or dropout\nlicensed data. The images are then resized and center cropped into 512 \u00d7 512 images for tokenization. In\ntotal, we include 1.4 billion text-image pairs, which produces 1.5 trillion text-image tokens.",
+      "right_source_context": "(a)\n7b\n3.2\n34b\n3.1\nTraining Loss\nIn Figure 5b, we show training loss curves for Chameleon-7B with and without QK-Norm, and the latter\ndiverges after approximately 20% of a training epoch.",
+      "scoped_text": 0.6633415222167969,
+      "scoped_text_figure": 0.7816990613937378,
+      "scoped_text_crop": 0.700797826051712,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "2405.09818v1",
+      "split": "heldout",
+      "stratum": "same_name_different",
+      "same_region": false,
+      "left_entity": "generation",
+      "left_label": "(b)",
+      "left_figure": "fig1",
+      "left_page": 2,
+      "left_bbox": [
+        492,
+        90,
+        879,
+        431
+      ],
+      "left_figure_bbox": [
+        92,
+        87,
+        900,
+        445
+      ],
+      "right_entity": "ablation_1",
+      "right_label": "(b)",
+      "right_figure": "fig2",
+      "right_page": 6,
+      "right_bbox": [
+        381,
+        84,
+        635,
+        240
+      ],
+      "right_figure_bbox": [
+        91,
+        83,
+        907,
+        325
+      ],
+      "text": 1.0000001192092896,
+      "figure": 0.5972428917884827,
+      "crop": 0.44214385747909546,
+      "left_source_context": "(b)\n\u201cHere is a recipe for\nbanana bread.\u201d\nIMAGE OUTPUT\nTEXT OUTPUT\nImage De-Tokenizer\nText tokens are represented in green and image tokens are represented in blue.",
+      "right_source_context": "(b)\n3.7\nw/o QK-norm\nw/ QK-norm\n3.6\nlicensed data. The images are then resized and center cropped into 512 \u00d7 512 images for tokenization. In\ntotal, we include 1.4 billion text-image pairs, which produces 1.5 trillion text-image tokens.",
+      "scoped_text": 0.7244236469268799,
+      "scoped_text_figure": 0.6608332693576813,
+      "scoped_text_crop": 0.5832837522029877,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "2405.09818v1",
+      "split": "heldout",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "pretraining",
+      "left_label": "Mixed-Modal Pre-Training",
+      "left_figure": "fig1",
+      "left_page": 2,
+      "left_bbox": [
+        114,
+        91,
+        487,
+        419
+      ],
+      "left_figure_bbox": [
+        92,
+        87,
+        900,
+        445
+      ],
+      "right_entity": "instability",
+      "right_label": "Uncontrolled growth of output",
+      "right_figure": "fig2",
+      "right_page": 6,
+      "right_bbox": [
+        117,
+        84,
+        372,
+        240
+      ],
+      "right_figure_bbox": [
+        91,
+        83,
+        907,
+        325
+      ],
+      "text": 0.6828382015228271,
+      "figure": 0.5972428917884827,
+      "crop": 0.49232780933380127,
+      "left_source_context": "Mixed-Modal Pre-Training\nEnd\nStart\nImage\nMixed-Modal Auto-Regressive LM\nText tokens are represented in green and image tokens are represented in blue.",
+      "right_source_context": "Uncontrolled growth of output\n35.0\nw/ QK-norm and dropout\n30.0\nw/o dropout\nw/o QK-norm or dropout\nlicensed data. The images are then resized and center cropped into 512 \u00d7 512 images for tokenization. In\ntotal, we include 1.4 billion text-image pairs, which produces 1.5 trillion text-image tokens.",
+      "scoped_text": 0.7228074073791504,
+      "scoped_text_figure": 0.6600251495838165,
+      "scoped_text_crop": 0.6075676083564758,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "2405.09818v1",
+      "split": "heldout",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "instability",
+      "left_label": "Uncontrolled growth of output",
+      "left_figure": "fig2",
+      "left_page": 6,
+      "left_bbox": [
+        117,
+        84,
+        372,
+        240
+      ],
+      "left_figure_bbox": [
+        91,
+        83,
+        907,
+        325
+      ],
+      "right_entity": "ablation_1",
+      "right_label": "(b)",
+      "right_figure": "fig2",
+      "right_page": 6,
+      "right_bbox": [
+        381,
+        84,
+        635,
+        240
+      ],
+      "right_figure_bbox": [
+        91,
+        83,
+        907,
+        325
+      ],
+      "text": 0.6405996084213257,
+      "figure": 0.9999998807907104,
+      "crop": 0.7195304036140442,
+      "left_source_context": "Uncontrolled growth of output\n35.0\nw/ QK-norm and dropout\n30.0\nw/o dropout\nw/o QK-norm or dropout\nlicensed data. The images are then resized and center cropped into 512 \u00d7 512 images for tokenization. In\ntotal, we include 1.4 billion text-image pairs, which produces 1.5 trillion text-image tokens.",
+      "right_source_context": "(b)\n3.7\nw/o QK-norm\nw/ QK-norm\n3.6\nlicensed data. The images are then resized and center cropped into 512 \u00d7 512 images for tokenization. In\ntotal, we include 1.4 billion text-image pairs, which produces 1.5 trillion text-image tokens.",
+      "scoped_text": 0.9503191113471985,
+      "scoped_text_figure": 0.9751594960689545,
+      "scoped_text_crop": 0.8349247574806213,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "2405.09818v1",
+      "split": "heldout",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "pretraining",
+      "left_label": "(a)",
+      "left_figure": "fig1",
+      "left_page": 2,
+      "left_bbox": [
+        114,
+        91,
+        487,
+        419
+      ],
+      "left_figure_bbox": [
+        92,
+        87,
+        900,
+        445
+      ],
+      "right_entity": "ablation_2",
+      "right_label": "(c)",
+      "right_figure": "fig2",
+      "right_page": 6,
+      "right_bbox": [
+        650,
+        84,
+        905,
+        240
+      ],
+      "right_figure_bbox": [
+        91,
+        83,
+        907,
+        325
+      ],
+      "text": 0.9199528694152832,
+      "figure": 0.5972428917884827,
+      "crop": 0.5267287492752075,
+      "left_source_context": "(a)\nEnd\nStart\nImage\nMixed-Modal Auto-Regressive LM\nText tokens are represented in green and image tokens are represented in blue.",
+      "right_source_context": "(c)\n3.9\nw/o dropout\nw/ dropout\n3.8\nTraining Loss\nlicensed data. The images are then resized and center cropped into 512 \u00d7 512 images for tokenization. In\ntotal, we include 1.4 billion text-image pairs, which produces 1.5 trillion text-image tokens.",
+      "scoped_text": 0.7261013984680176,
+      "scoped_text_figure": 0.6616721451282501,
+      "scoped_text_crop": 0.6264150738716125,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "91521110100M_4K_UHD_Display_User_Manual_V1.1",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "display",
+      "left_label": "4K Display",
+      "left_figure": "kit",
+      "left_page": 4,
+      "left_bbox": [
+        155,
+        289,
+        305,
+        407
+      ],
+      "left_figure_bbox": [
+        85,
+        264,
+        906,
+        813
+      ],
+      "right_entity": "vga_cable",
+      "right_label": "VGA Cable",
+      "right_figure": "kit",
+      "right_page": 4,
+      "right_bbox": [
+        516,
+        486,
+        686,
+        601
+      ],
+      "right_figure_bbox": [
+        85,
+        264,
+        906,
+        813
+      ],
+      "text": 0.7543983459472656,
+      "figure": 1.0,
+      "crop": 0.6993913650512695,
+      "left_source_context": "4K Display\n27\u201d / 32\u201d 4K Display\n\u2022\nWhat is Included\nRemote Control\nSDI Cable\nTouch (Optional)",
+      "right_source_context": "VGA Cable\nPart No. 91521110100M\n\u2022\nPower Cable 1.8m\nPart No. 9B0000000418\nSDI Cable\nTouch (Optional)",
+      "scoped_text": 0.6991751194000244,
+      "scoped_text_figure": 0.8495875597000122,
+      "scoped_text_crop": 0.699283242225647,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "91521110100M_4K_UHD_Display_User_Manual_V1.1",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "remote",
+      "left_label": "Remote Control",
+      "left_figure": "kit",
+      "left_page": 4,
+      "left_bbox": [
+        392,
+        285,
+        481,
+        417
+      ],
+      "left_figure_bbox": [
+        85,
+        264,
+        906,
+        813
+      ],
+      "right_entity": "vga_input",
+      "right_label": "VGA In",
+      "right_figure": "ports",
+      "right_page": 5,
+      "right_bbox": [
+        456,
+        703,
+        500,
+        756
+      ],
+      "right_figure_bbox": [
+        156,
+        622,
+        849,
+        842
+      ],
+      "text": 0.7059552669525146,
+      "figure": 0.7376023530960083,
+      "crop": 0.7508277893066406,
+      "left_source_context": "Remote Control\nPart No. 9B0000000418\n\u2022\nUser Manual\nSDI Cable\nTouch (Optional)",
+      "right_source_context": "VGA In\nHDMI 2.0\nSDI In\nSDI Out\n6.\n1. 24 V DC In",
+      "scoped_text": 0.6025491952896118,
+      "scoped_text_figure": 0.6700757741928101,
+      "scoped_text_crop": 0.6766884922981262,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "91521110100M_4K_UHD_Display_User_Manual_V1.1",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "remote",
+      "left_label": "Remote Control",
+      "left_figure": "kit",
+      "left_page": 4,
+      "left_bbox": [
+        392,
+        285,
+        481,
+        417
+      ],
+      "left_figure_bbox": [
+        85,
+        264,
+        906,
+        813
+      ],
+      "right_entity": "hdmi_input",
+      "right_label": "HDMI 2.0",
+      "right_figure": "ports",
+      "right_page": 5,
+      "right_bbox": [
+        522,
+        695,
+        556,
+        757
+      ],
+      "right_figure_bbox": [
+        156,
+        622,
+        849,
+        842
+      ],
+      "text": 0.7392876744270325,
+      "figure": 0.7376023530960083,
+      "crop": 0.7762411832809448,
+      "left_source_context": "Remote Control\nPart No. 9B0000000418\n\u2022\nUser Manual\nSDI Cable\nTouch (Optional)",
+      "right_source_context": "HDMI 2.0\n11. Mic In\nVGA In\n12. Line Out\naffixing the connector cover. Doing so may cause electric shock.\n1. 24 V DC In\n6.",
+      "scoped_text": 0.604530394077301,
+      "scoped_text_figure": 0.6710663735866547,
+      "scoped_text_crop": 0.6903857886791229,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "91521110100M_4K_UHD_Display_User_Manual_V1.1",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "vga_cable",
+      "left_label": "VGA Cable",
+      "left_figure": "kit",
+      "left_page": 4,
+      "left_bbox": [
+        516,
+        486,
+        686,
+        601
+      ],
+      "left_figure_bbox": [
+        85,
+        264,
+        906,
+        813
+      ],
+      "right_entity": "vga_input",
+      "right_label": "VGA In",
+      "right_figure": "ports",
+      "right_page": 5,
+      "right_bbox": [
+        456,
+        703,
+        500,
+        756
+      ],
+      "right_figure_bbox": [
+        156,
+        622,
+        849,
+        842
+      ],
+      "text": 0.8643946647644043,
+      "figure": 0.7376023530960083,
+      "crop": 0.8115460276603699,
+      "left_source_context": "VGA Cable\nPart No. 91521110100M\n\u2022\nPower Cable 1.8m\nPart No. 9B0000000418\nSDI Cable\nTouch (Optional)",
+      "right_source_context": "VGA In\nHDMI 2.0\nSDI In\nSDI Out\n6.\n1. 24 V DC In",
+      "scoped_text": 0.7357258200645447,
+      "scoped_text_figure": 0.7366640865802765,
+      "scoped_text_crop": 0.7736359238624573,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "91521110100M_4K_UHD_Display_User_Manual_V1.1",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "vga_cable",
+      "left_label": "VGA Cable",
+      "left_figure": "kit",
+      "left_page": 4,
+      "left_bbox": [
+        516,
+        486,
+        686,
+        601
+      ],
+      "left_figure_bbox": [
+        85,
+        264,
+        906,
+        813
+      ],
+      "right_entity": "ground_pin",
+      "right_label": "Ground Pin",
+      "right_figure": "ground",
+      "right_page": 6,
+      "right_bbox": [
+        128,
+        359,
+        181,
+        410
+      ],
+      "right_figure_bbox": [
+        104,
+        350,
+        350,
+        416
+      ],
+      "text": 0.688285231590271,
+      "figure": 0.6107603907585144,
+      "crop": 0.6374766826629639,
+      "left_source_context": "VGA Cable\nPart No. 91521110100M\n\u2022\nPower Cable 1.8m\nPart No. 9B0000000418\nSDI Cable\nTouch (Optional)",
+      "right_source_context": "Ground Pin\n1.4 Connecting Power\nPROVIDED).\nConnect the AC cord to the AC IN terminal on the AC adaptor.\nequalization pin (POAG) found on devices, to the monitor ground pin using an AWG18 wire (WIRE NOT\n\u2022",
+      "scoped_text": 0.6192226409912109,
+      "scoped_text_figure": 0.6149915158748627,
+      "scoped_text_crop": 0.6283496618270874,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "91521110100M_4K_UHD_Display_User_Manual_V1.1",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "display",
+      "left_label": "4K Display",
+      "left_figure": "kit",
+      "left_page": 4,
+      "left_bbox": [
+        155,
+        289,
+        305,
+        407
+      ],
+      "left_figure_bbox": [
+        85,
+        264,
+        906,
+        813
+      ],
+      "right_entity": "remote",
+      "right_label": "Remote Control",
+      "right_figure": "kit",
+      "right_page": 4,
+      "right_bbox": [
+        392,
+        285,
+        481,
+        417
+      ],
+      "right_figure_bbox": [
+        85,
+        264,
+        906,
+        813
+      ],
+      "text": 0.7698622941970825,
+      "figure": 1.0,
+      "crop": 0.721544086933136,
+      "left_source_context": "4K Display\n27\u201d / 32\u201d 4K Display\n\u2022\nWhat is Included\nRemote Control\nSDI Cable\nTouch (Optional)",
+      "right_source_context": "Remote Control\nPart No. 9B0000000418\n\u2022\nUser Manual\nSDI Cable\nTouch (Optional)",
+      "scoped_text": 0.7725816965103149,
+      "scoped_text_figure": 0.8862908482551575,
+      "scoped_text_crop": 0.7470628917217255,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "Macbook_air",
+      "split": "heldout",
+      "stratum": "same_name_same",
+      "same_region": false,
+      "left_entity": "power_adapter",
+      "left_label": "45W MagSafe Power Adapter",
+      "left_figure": "kit",
+      "left_page": 9,
+      "left_bbox": [
+        152,
+        362,
+        420,
+        523
+      ],
+      "left_figure_bbox": [
+        86,
+        226,
+        868,
+        558
+      ],
+      "right_entity": "power_adapter",
+      "right_label": "45W MagSafe Power Adapter",
+      "right_figure": "connection",
+      "right_page": 10,
+      "right_bbox": [
+        95,
+        609,
+        333,
+        771
+      ],
+      "right_figure_bbox": [
+        87,
+        560,
+        913,
+        876
+      ],
+      "text": 1.0,
+      "figure": 0.8471369743347168,
+      "crop": 0.7969422340393066,
+      "left_source_context": "45W MagSafe Power Adapter\nAC\nplug\nImportant: Remove the protective film covering the 45W MagSafe Power Adapter\nbefore setting up your MacBook Air.\nAbout Optical Discs\n\u00ae\nAlthough your MacBook Air doesn\u2019t have an optical disc drive, it does include DVD",
+      "right_source_context": "45W MagSafe Power Adapter\n\u00ae\nAC plug\nMagSafe connector\npull drawing it in.\nMacBook Air. As the MagSafe connector gets close to the port, you\u2019ll feel a magnetic\nChapter 1 Ready, Set Up, Go",
+      "scoped_text": 0.8455825448036194,
+      "scoped_text_figure": 0.8463597595691681,
+      "scoped_text_crop": 0.821262389421463,
+      "scoped_text_decision": "merge",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "merge"
+    },
+    {
+      "document": "Macbook_air",
+      "split": "heldout",
+      "stratum": "same_name_same",
+      "same_region": false,
+      "left_entity": "magsafe_port",
+      "left_label": "MagSafe power port",
+      "left_figure": "connection",
+      "left_page": 10,
+      "left_bbox": [
+        307,
+        712,
+        427,
+        786
+      ],
+      "left_figure_bbox": [
+        87,
+        560,
+        913,
+        876
+      ],
+      "right_entity": "magsafe_port",
+      "right_label": "MagSafe power port",
+      "right_figure": "ports",
+      "right_page": 30,
+      "right_bbox": [
+        144,
+        526,
+        316,
+        592
+      ],
+      "right_figure_bbox": [
+        92,
+        203,
+        887,
+        816
+      ],
+      "text": 0.9999999403953552,
+      "figure": 0.7955003976821899,
+      "crop": 0.7758501768112183,
+      "left_source_context": "MagSafe power port\n\u00ae\nAC power cord\nMagSafe connector\nAC plug\nChapter 1 Ready, Set Up, Go\npull drawing it in.\nMacBook Air. As the MagSafe connector gets close to the port, you\u2019ll feel a magnetic",
+      "right_source_context": "MagSafe power port\nf\n\u00af\nHeadphone\njack\nPorts on Your MacBook Air",
+      "scoped_text": 0.7843559384346008,
+      "scoped_text_figure": 0.7899281680583954,
+      "scoped_text_crop": 0.7801030576229095,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "merge"
+    },
+    {
+      "document": "Macbook_air",
+      "split": "heldout",
+      "stratum": "different_name_same",
+      "same_region": false,
+      "left_entity": "power_adapter",
+      "left_label": "45W MagSafe Power Adapter",
+      "left_figure": "kit",
+      "left_page": 9,
+      "left_bbox": [
+        152,
+        362,
+        420,
+        523
+      ],
+      "left_figure_bbox": [
+        86,
+        226,
+        868,
+        558
+      ],
+      "right_entity": "power_adapter",
+      "right_label": "power adapter",
+      "right_figure": "connection",
+      "right_page": 10,
+      "right_bbox": [
+        95,
+        609,
+        333,
+        771
+      ],
+      "right_figure_bbox": [
+        87,
+        560,
+        913,
+        876
+      ],
+      "text": 0.7807284593582153,
+      "figure": 0.8471369743347168,
+      "crop": 0.7969422340393066,
+      "left_source_context": "45W MagSafe Power Adapter\nAC\nplug\nImportant: Remove the protective film covering the 45W MagSafe Power Adapter\nbefore setting up your MacBook Air.\nAbout Optical Discs\n\u00ae\nAlthough your MacBook Air doesn\u2019t have an optical disc drive, it does include DVD",
+      "right_source_context": "power adapter\n\u00ae\nAC plug\nMagSafe connector\npull drawing it in.\nMacBook Air. As the MagSafe connector gets close to the port, you\u2019ll feel a magnetic\nChapter 1 Ready, Set Up, Go",
+      "scoped_text": 0.7952151298522949,
+      "scoped_text_figure": 0.8211760520935059,
+      "scoped_text_crop": 0.7960786819458008,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "Macbook_air",
+      "split": "heldout",
+      "stratum": "different_name_same",
+      "same_region": false,
+      "left_entity": "camera",
+      "left_label": "Built-in iSight camera",
+      "left_figure": "introduction",
+      "left_page": 2,
+      "left_bbox": [
+        435,
+        75,
+        572,
+        182
+      ],
+      "left_figure_bbox": [
+        110,
+        74,
+        916,
+        697
+      ],
+      "right_entity": "camera",
+      "right_label": "iSight camera",
+      "right_figure": "features",
+      "right_page": 26,
+      "right_bbox": [
+        634,
+        137,
+        721,
+        178
+      ],
+      "right_figure_bbox": [
+        106,
+        129,
+        907,
+        725
+      ],
+      "text": 0.8879479169845581,
+      "figure": 0.6905913352966309,
+      "crop": 0.7384451031684875,
+      "left_source_context": "Built-in iSight camera\nfriends anywhere in the world\nVideo chat with up to three\nwww.apple.com/macbookair\nat the same time.\nFinder\nTime Machine",
+      "right_source_context": "iSight camera\nBasic Features of Your MacBook Air\nAmbient light sensor\n\u00ae\nCamera indicator light",
+      "scoped_text": 0.7364734411239624,
+      "scoped_text_figure": 0.7135323882102966,
+      "scoped_text_crop": 0.737459272146225,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "Macbook_air",
+      "split": "heldout",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "camera",
+      "left_label": "Built-in iSight camera",
+      "left_figure": "introduction",
+      "left_page": 2,
+      "left_bbox": [
+        435,
+        75,
+        572,
+        182
+      ],
+      "left_figure_bbox": [
+        110,
+        74,
+        916,
+        697
+      ],
+      "right_entity": "power_adapter",
+      "right_label": "45W MagSafe Power Adapter",
+      "right_figure": "connection",
+      "right_page": 10,
+      "right_bbox": [
+        95,
+        609,
+        333,
+        771
+      ],
+      "right_figure_bbox": [
+        87,
+        560,
+        913,
+        876
+      ],
+      "text": 0.6072899103164673,
+      "figure": 0.6235580444335938,
+      "crop": 0.7016927003860474,
+      "left_source_context": "Built-in iSight camera\nfriends anywhere in the world\nVideo chat with up to three\nwww.apple.com/macbookair\nat the same time.\nFinder\nTime Machine",
+      "right_source_context": "45W MagSafe Power Adapter\n\u00ae\nAC plug\nMagSafe connector\npull drawing it in.\nMacBook Air. As the MagSafe connector gets close to the port, you\u2019ll feel a magnetic\nChapter 1 Ready, Set Up, Go",
+      "scoped_text": 0.575056791305542,
+      "scoped_text_figure": 0.5993074178695679,
+      "scoped_text_crop": 0.6383747458457947,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "Macbook_air",
+      "split": "heldout",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "power_adapter",
+      "left_label": "45W MagSafe Power Adapter",
+      "left_figure": "kit",
+      "left_page": 9,
+      "left_bbox": [
+        152,
+        362,
+        420,
+        523
+      ],
+      "left_figure_bbox": [
+        86,
+        226,
+        868,
+        558
+      ],
+      "right_entity": "magsafe_port",
+      "right_label": "MagSafe power port",
+      "right_figure": "ports",
+      "right_page": 30,
+      "right_bbox": [
+        144,
+        526,
+        316,
+        592
+      ],
+      "right_figure_bbox": [
+        92,
+        203,
+        887,
+        816
+      ],
+      "text": 0.840598464012146,
+      "figure": 0.7317972183227539,
+      "crop": 0.6031749844551086,
+      "left_source_context": "45W MagSafe Power Adapter\nAC\nplug\nImportant: Remove the protective film covering the 45W MagSafe Power Adapter\nbefore setting up your MacBook Air.\nAbout Optical Discs\n\u00ae\nAlthough your MacBook Air doesn\u2019t have an optical disc drive, it does include DVD",
+      "right_source_context": "MagSafe power port\nf\n\u00af\nHeadphone\njack\nPorts on Your MacBook Air",
+      "scoped_text": 0.7494416236877441,
+      "scoped_text_figure": 0.740619421005249,
+      "scoped_text_crop": 0.6763083040714264,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "Macbook_air",
+      "split": "heldout",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "camera",
+      "left_label": "iSight camera",
+      "left_figure": "features",
+      "left_page": 26,
+      "left_bbox": [
+        634,
+        137,
+        721,
+        178
+      ],
+      "left_figure_bbox": [
+        106,
+        129,
+        907,
+        725
+      ],
+      "right_entity": "power_adapter",
+      "right_label": "power adapter",
+      "right_figure": "connection",
+      "right_page": 10,
+      "right_bbox": [
+        95,
+        609,
+        333,
+        771
+      ],
+      "right_figure_bbox": [
+        87,
+        560,
+        913,
+        876
+      ],
+      "text": 0.5262551307678223,
+      "figure": 0.781578779220581,
+      "crop": 0.6986573934555054,
+      "left_source_context": "iSight camera\nBasic Features of Your MacBook Air\nAmbient light sensor\n\u00ae\nCamera indicator light",
+      "right_source_context": "power adapter\n\u00ae\nAC plug\nMagSafe connector\npull drawing it in.\nMacBook Air. As the MagSafe connector gets close to the port, you\u2019ll feel a magnetic\nChapter 1 Ready, Set Up, Go",
+      "scoped_text": 0.6139427423477173,
+      "scoped_text_figure": 0.6977607607841492,
+      "scoped_text_crop": 0.6563000679016113,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "User_Manual_1500S_Classic_EN",
+      "split": "development",
+      "stratum": "same_name_same",
+      "same_region": false,
+      "left_entity": "buttons",
+      "left_label": "Beverage buttons",
+      "left_figure": "display",
+      "left_page": 14,
+      "left_bbox": [
+        236,
+        722,
+        567,
+        893
+      ],
+      "left_figure_bbox": [
+        176,
+        693,
+        673,
+        964
+      ],
+      "right_entity": "buttons",
+      "right_label": "Beverage buttons",
+      "right_figure": "beverages",
+      "right_page": 21,
+      "right_bbox": [
+        707,
+        122,
+        905,
+        235
+      ],
+      "right_figure_bbox": [
+        696,
+        119,
+        914,
+        254
+      ],
+      "text": 1.0,
+      "figure": 0.9047675132751465,
+      "crop": 0.9672075510025024,
+      "left_source_context": "Beverage buttons\nEspresso\nCappuccino\nCaf\u00e9 cr\u00e8me\nLatte macchiato\nMilk Choc\nUser Manual WMF 1500\u2006S\n14\n15",
+      "right_source_context": "Beverage buttons\nEspresso\nCappuccino\nCaf\u00e9 cr\u00e8me\nLatte macchiato\nMilk Choc\nOperation | Beverage dispensing\nPressing the beverage buttons triggers dispensing of\nButton allocation",
+      "scoped_text": 0.8751447200775146,
+      "scoped_text_figure": 0.8899561166763306,
+      "scoped_text_crop": 0.9211761355400085,
+      "scoped_text_decision": "merge",
+      "scoped_text_figure_decision": "merge",
+      "scoped_text_crop_decision": "merge"
+    },
+    {
+      "document": "User_Manual_1500S_Classic_EN",
+      "split": "development",
+      "stratum": "same_name_same",
+      "same_region": false,
+      "left_entity": "switch",
+      "left_label": "ON/OFF switch",
+      "left_figure": "machine",
+      "left_page": 14,
+      "left_bbox": [
+        533,
+        536,
+        848,
+        683
+      ],
+      "left_figure_bbox": [
+        87,
+        166,
+        925,
+        691
+      ],
+      "right_entity": "switch",
+      "right_label": "ON/OFF switch",
+      "right_figure": "switch",
+      "right_page": 19,
+      "right_bbox": [
+        700,
+        228,
+        905,
+        357
+      ],
+      "right_figure_bbox": [
+        686,
+        113,
+        912,
+        366
+      ],
+      "text": 1.0,
+      "figure": 0.8145389556884766,
+      "crop": 0.8907703161239624,
+      "left_source_context": "ON/OFF switch\n9\n13\n8\n22\n10\n14\n2",
+      "right_source_context": "ON/OFF switch\nPIN access control\nw\u200aPIN rights\nThe coffee machine can be switched on and switched\npage 48\nbeverages, the \u201cReady to operate\u201d display appears.\nOperation | Switch on coffee machine",
+      "scoped_text": 0.6725280284881592,
+      "scoped_text_figure": 0.7435334920883179,
+      "scoped_text_crop": 0.7816491723060608,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "merge"
+    },
+    {
+      "document": "User_Manual_1500S_Classic_EN",
+      "split": "development",
+      "stratum": "different_name_same",
+      "same_region": false,
+      "left_entity": "switch",
+      "left_label": "13",
+      "left_figure": "machine",
+      "left_page": 14,
+      "left_bbox": [
+        533,
+        536,
+        848,
+        683
+      ],
+      "left_figure_bbox": [
+        87,
+        166,
+        925,
+        691
+      ],
+      "right_entity": "switch",
+      "right_label": "ON/OFF switch",
+      "right_figure": "switch",
+      "right_page": 19,
+      "right_bbox": [
+        700,
+        228,
+        905,
+        357
+      ],
+      "right_figure_bbox": [
+        686,
+        113,
+        912,
+        366
+      ],
+      "text": 0.561790943145752,
+      "figure": 0.8145389556884766,
+      "crop": 0.8907703161239624,
+      "left_source_context": "13\n9\n8\n22\n10\n14\n2",
+      "right_source_context": "ON/OFF switch\nPIN access control\nw\u200aPIN rights\nThe coffee machine can be switched on and switched\npage 48\nbeverages, the \u201cReady to operate\u201d display appears.\nOperation | Switch on coffee machine",
+      "scoped_text": 0.5111939907073975,
+      "scoped_text_figure": 0.662866473197937,
+      "scoped_text_crop": 0.7009821534156799,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "User_Manual_1500S_Classic_EN",
+      "split": "development",
+      "stratum": "different_name_same",
+      "same_region": false,
+      "left_entity": "buttons",
+      "left_label": "14",
+      "left_figure": "display",
+      "left_page": 14,
+      "left_bbox": [
+        236,
+        722,
+        567,
+        893
+      ],
+      "left_figure_bbox": [
+        176,
+        693,
+        673,
+        964
+      ],
+      "right_entity": "buttons",
+      "right_label": "Beverage buttons",
+      "right_figure": "beverages",
+      "right_page": 21,
+      "right_bbox": [
+        707,
+        122,
+        905,
+        235
+      ],
+      "right_figure_bbox": [
+        696,
+        119,
+        914,
+        254
+      ],
+      "text": 0.4911075532436371,
+      "figure": 0.9047675132751465,
+      "crop": 0.9672075510025024,
+      "left_source_context": "14\nEspresso\nCappuccino\nCaf\u00e9 cr\u00e8me\nLatte macchiato\nMilk Choc\nUser Manual WMF 1500\u2006S\n15",
+      "right_source_context": "Beverage buttons\nEspresso\nCappuccino\nCaf\u00e9 cr\u00e8me\nLatte macchiato\nMilk Choc\nOperation | Beverage dispensing\nPressing the beverage buttons triggers dispensing of\nButton allocation",
+      "scoped_text": 0.7371208071708679,
+      "scoped_text_figure": 0.8209441602230072,
+      "scoped_text_crop": 0.8521641790866852,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "User_Manual_1500S_Classic_EN",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "switch",
+      "left_label": "ON/OFF switch",
+      "left_figure": "machine",
+      "left_page": 14,
+      "left_bbox": [
+        533,
+        536,
+        848,
+        683
+      ],
+      "left_figure_bbox": [
+        87,
+        166,
+        925,
+        691
+      ],
+      "right_entity": "buttons",
+      "right_label": "14",
+      "right_figure": "display",
+      "right_page": 14,
+      "right_bbox": [
+        236,
+        722,
+        567,
+        893
+      ],
+      "right_figure_bbox": [
+        176,
+        693,
+        673,
+        964
+      ],
+      "text": 0.6301827430725098,
+      "figure": 0.6568223237991333,
+      "crop": 0.7147219181060791,
+      "left_source_context": "ON/OFF switch\n9\n13\n8\n22\n10\n14\n2",
+      "right_source_context": "14\nEspresso\nCappuccino\nCaf\u00e9 cr\u00e8me\nLatte macchiato\nMilk Choc\nUser Manual WMF 1500\u2006S\n15",
+      "scoped_text": 0.5605618953704834,
+      "scoped_text_figure": 0.6086921095848083,
+      "scoped_text_crop": 0.6376419067382812,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "User_Manual_1500S_Classic_EN",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "hopper",
+      "left_label": "Bean hopper",
+      "left_figure": "machine",
+      "left_page": 14,
+      "left_bbox": [
+        218,
+        207,
+        525,
+        344
+      ],
+      "left_figure_bbox": [
+        87,
+        166,
+        925,
+        691
+      ],
+      "right_entity": "switch",
+      "right_label": "ON/OFF switch",
+      "right_figure": "switch",
+      "right_page": 19,
+      "right_bbox": [
+        700,
+        228,
+        905,
+        357
+      ],
+      "right_figure_bbox": [
+        686,
+        113,
+        912,
+        366
+      ],
+      "text": 0.6557639241218567,
+      "figure": 0.8145389556884766,
+      "crop": 0.7177872657775879,
+      "left_source_context": "Bean hopper\n1\nParts of the coffee machine\n12\nIntroduction\n14\n22\n2",
+      "right_source_context": "ON/OFF switch\nPIN access control\nw\u200aPIN rights\nThe coffee machine can be switched on and switched\npage 48\nbeverages, the \u201cReady to operate\u201d display appears.\nOperation | Switch on coffee machine",
+      "scoped_text": 0.7085937261581421,
+      "scoped_text_figure": 0.7615663409233093,
+      "scoped_text_crop": 0.713190495967865,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "User_Manual_1500S_Classic_EN",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "hopper",
+      "left_label": "1",
+      "left_figure": "machine",
+      "left_page": 14,
+      "left_bbox": [
+        218,
+        207,
+        525,
+        344
+      ],
+      "left_figure_bbox": [
+        87,
+        166,
+        925,
+        691
+      ],
+      "right_entity": "buttons",
+      "right_label": "Beverage buttons",
+      "right_figure": "beverages",
+      "right_page": 21,
+      "right_bbox": [
+        707,
+        122,
+        905,
+        235
+      ],
+      "right_figure_bbox": [
+        696,
+        119,
+        914,
+        254
+      ],
+      "text": 0.44488006830215454,
+      "figure": 0.5748070478439331,
+      "crop": 0.6515933275222778,
+      "left_source_context": "1\nParts of the coffee machine\n12\nIntroduction\n14\n22\n2",
+      "right_source_context": "Beverage buttons\nEspresso\nCappuccino\nCaf\u00e9 cr\u00e8me\nLatte macchiato\nMilk Choc\nOperation | Beverage dispensing\nPressing the beverage buttons triggers dispensing of\nButton allocation",
+      "scoped_text": 0.6549801826477051,
+      "scoped_text_figure": 0.6148936152458191,
+      "scoped_text_crop": 0.6532867550849915,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "camry_ebrochure",
+      "split": "heldout",
+      "stratum": "same_name_different",
+      "same_region": false,
+      "left_entity": "exterior_left",
+      "left_label": "Camry",
+      "left_figure": "exterior",
+      "left_page": 5,
+      "left_bbox": [
+        28,
+        427,
+        440,
+        562
+      ],
+      "left_figure_bbox": [
+        0,
+        270,
+        999,
+        595
+      ],
+      "right_entity": "exterior_right",
+      "right_label": "Camry",
+      "right_figure": "exterior",
+      "right_page": 5,
+      "right_bbox": [
+        468,
+        369,
+        954,
+        588
+      ],
+      "right_figure_bbox": [
+        0,
+        270,
+        999,
+        595
+      ],
+      "text": 0.9999998807907104,
+      "figure": 1.0,
+      "crop": 0.969146728515625,
+      "left_source_context": "Camry\nLeft to right: XSE Hybrid shown in Celestial Silver Metallic and Midnight Black Metallic roof (extra-cost color) with available power tilt/slide moonroof;\nXLE shown in Wind Chill Pearl (extra-cost color) with available Driver Assist Package and panoramic glass roof with front power tilt/slide moonroof\nSeat details\nCamry SE Nightshade\nShow off Camry\u2019s dark side with Camry SE",
+      "right_source_context": "Camry\nLeft to right: XSE Hybrid shown in Celestial Silver Metallic and Midnight Black Metallic roof (extra-cost color) with available power tilt/slide moonroof;\nXLE shown in Wind Chill Pearl (extra-cost color) with available Driver Assist Package and panoramic glass roof with front power tilt/slide moonroof\nLights (DRL) that add an illuminating touch.\nLED headlights and fully integrated LED Daytime Running\nFloating touchscreen display",
+      "scoped_text": 0.9550700783729553,
+      "scoped_text_figure": 0.9775350391864777,
+      "scoped_text_crop": 0.9621084034442902,
+      "scoped_text_decision": "merge",
+      "scoped_text_figure_decision": "merge",
+      "scoped_text_crop_decision": "merge"
+    },
+    {
+      "document": "camry_ebrochure",
+      "split": "heldout",
+      "stratum": "same_name_same",
+      "same_region": false,
+      "left_entity": "nightshade",
+      "left_label": "SE Hybrid Nightshade",
+      "left_figure": "upper",
+      "left_page": 2,
+      "left_bbox": [
+        536,
+        258,
+        903,
+        389
+      ],
+      "left_figure_bbox": [
+        505,
+        183,
+        933,
+        431
+      ],
+      "right_entity": "nightshade",
+      "right_label": "SE Hybrid Nightshade",
+      "right_figure": "lower",
+      "right_page": 2,
+      "right_bbox": [
+        281,
+        517,
+        794,
+        759
+      ],
+      "right_figure_bbox": [
+        69,
+        460,
+        935,
+        830
+      ],
+      "text": 1.000000238418579,
+      "figure": 0.9214321970939636,
+      "crop": 0.9165458679199219,
+      "left_source_context": "SE Hybrid Nightshade\nSE Hybrid Nightshade shown in Reservoir Blue.\nAll-Wheel Drive (AWD) capability or taking your\nadventures a confidence boost with available\ndaily commutes as far as they can with hybrid\na perfect match for you. Whether giving your",
+      "right_source_context": "SE Hybrid Nightshade\nSE Hybrid Nightshade shown in Reservoir Blue.\nefficiency, there\u2019s a Camry fit for your lifestyle.\ndaily commutes as far as they can with hybrid\nAll-Wheel Drive (AWD) capability or taking your",
+      "scoped_text": 0.9538260102272034,
+      "scoped_text_figure": 0.9376291036605835,
+      "scoped_text_crop": 0.9351859390735626,
+      "scoped_text_decision": "merge",
+      "scoped_text_figure_decision": "merge",
+      "scoped_text_crop_decision": "merge"
+    },
+    {
+      "document": "camry_ebrochure",
+      "split": "heldout",
+      "stratum": "same_name_same",
+      "same_region": false,
+      "left_entity": "nightshade",
+      "left_label": "SE Hybrid Nightshade shown in Reservoir Blue",
+      "left_figure": "upper",
+      "left_page": 2,
+      "left_bbox": [
+        536,
+        258,
+        903,
+        389
+      ],
+      "left_figure_bbox": [
+        505,
+        183,
+        933,
+        431
+      ],
+      "right_entity": "nightshade",
+      "right_label": "SE Hybrid Nightshade shown in Reservoir Blue",
+      "right_figure": "lower",
+      "right_page": 2,
+      "right_bbox": [
+        281,
+        517,
+        794,
+        759
+      ],
+      "right_figure_bbox": [
+        69,
+        460,
+        935,
+        830
+      ],
+      "text": 1.0000001192092896,
+      "figure": 0.9214321970939636,
+      "crop": 0.9165458679199219,
+      "left_source_context": "SE Hybrid Nightshade shown in Reservoir Blue\nSE Hybrid Nightshade shown in Reservoir Blue.\nAll-Wheel Drive (AWD) capability or taking your\nadventures a confidence boost with available\ndaily commutes as far as they can with hybrid\na perfect match for you. Whether giving your",
+      "right_source_context": "SE Hybrid Nightshade shown in Reservoir Blue\nSE Hybrid Nightshade shown in Reservoir Blue.\nefficiency, there\u2019s a Camry fit for your lifestyle.\ndaily commutes as far as they can with hybrid\nAll-Wheel Drive (AWD) capability or taking your",
+      "scoped_text": 0.9652628302574158,
+      "scoped_text_figure": 0.9433475136756897,
+      "scoped_text_crop": 0.9409043490886688,
+      "scoped_text_decision": "merge",
+      "scoped_text_figure_decision": "merge",
+      "scoped_text_crop_decision": "merge"
+    },
+    {
+      "document": "camry_ebrochure",
+      "split": "heldout",
+      "stratum": "different_name_same",
+      "same_region": false,
+      "left_entity": "nightshade",
+      "left_label": "SE Hybrid Nightshade",
+      "left_figure": "upper",
+      "left_page": 2,
+      "left_bbox": [
+        536,
+        258,
+        903,
+        389
+      ],
+      "left_figure_bbox": [
+        505,
+        183,
+        933,
+        431
+      ],
+      "right_entity": "nightshade",
+      "right_label": "Camry SE Nightshade",
+      "right_figure": "details",
+      "right_page": 5,
+      "right_bbox": [
+        25,
+        617,
+        295,
+        740
+      ],
+      "right_figure_bbox": [
+        0,
+        595,
+        999,
+        758
+      ],
+      "text": 0.6848111152648926,
+      "figure": 0.8537895083427429,
+      "crop": 0.919182538986206,
+      "left_source_context": "SE Hybrid Nightshade\nSE Hybrid Nightshade shown in Reservoir Blue.\nAll-Wheel Drive (AWD) capability or taking your\nadventures a confidence boost with available\ndaily commutes as far as they can with hybrid\na perfect match for you. Whether giving your",
+      "right_source_context": "Camry SE Nightshade\nXLE shown in Wind Chill Pearl (extra-cost color) with available Driver Assist Package and panoramic glass roof with front power tilt/slide moonroof\nLeft to right: XSE Hybrid shown in Celestial Silver Metallic and Midnight Black Metallic roof (extra-cost color) with available power tilt/slide moonroof;\nShow off Camry\u2019s dark side with Camry SE\nNightshade. Available in both gas and\nSeat details\nFloating touchscreen display",
+      "scoped_text": 0.7702811360359192,
+      "scoped_text_figure": 0.812035322189331,
+      "scoped_text_crop": 0.8447318375110626,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "camry_ebrochure",
+      "split": "heldout",
+      "stratum": "different_name_same",
+      "same_region": false,
+      "left_entity": "nightshade",
+      "left_label": "SE Hybrid Nightshade",
+      "left_figure": "lower",
+      "left_page": 2,
+      "left_bbox": [
+        281,
+        517,
+        794,
+        759
+      ],
+      "left_figure_bbox": [
+        69,
+        460,
+        935,
+        830
+      ],
+      "right_entity": "nightshade",
+      "right_label": "Camry SE Nightshade",
+      "right_figure": "details",
+      "right_page": 5,
+      "right_bbox": [
+        25,
+        617,
+        295,
+        740
+      ],
+      "right_figure_bbox": [
+        0,
+        595,
+        999,
+        758
+      ],
+      "text": 0.6848111152648926,
+      "figure": 0.8384273052215576,
+      "crop": 0.9326785802841187,
+      "left_source_context": "SE Hybrid Nightshade\nSE Hybrid Nightshade shown in Reservoir Blue.\nefficiency, there\u2019s a Camry fit for your lifestyle.\ndaily commutes as far as they can with hybrid\nAll-Wheel Drive (AWD) capability or taking your",
+      "right_source_context": "Camry SE Nightshade\nXLE shown in Wind Chill Pearl (extra-cost color) with available Driver Assist Package and panoramic glass roof with front power tilt/slide moonroof\nLeft to right: XSE Hybrid shown in Celestial Silver Metallic and Midnight Black Metallic roof (extra-cost color) with available power tilt/slide moonroof;\nShow off Camry\u2019s dark side with Camry SE\nNightshade. Available in both gas and\nSeat details\nFloating touchscreen display",
+      "scoped_text": 0.7970293760299683,
+      "scoped_text_figure": 0.8177283406257629,
+      "scoped_text_crop": 0.8648539781570435,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "camry_ebrochure",
+      "split": "heldout",
+      "stratum": "different_name_same",
+      "same_region": false,
+      "left_entity": "nightshade",
+      "left_label": "SE Hybrid Nightshade",
+      "left_figure": "upper",
+      "left_page": 2,
+      "left_bbox": [
+        536,
+        258,
+        903,
+        389
+      ],
+      "left_figure_bbox": [
+        505,
+        183,
+        933,
+        431
+      ],
+      "right_entity": "nightshade",
+      "right_label": "SE Hybrid Nightshade shown in Reservoir Blue",
+      "right_figure": "lower",
+      "right_page": 2,
+      "right_bbox": [
+        281,
+        517,
+        794,
+        759
+      ],
+      "right_figure_bbox": [
+        69,
+        460,
+        935,
+        830
+      ],
+      "text": 0.7306912541389465,
+      "figure": 0.9214321970939636,
+      "crop": 0.9165458679199219,
+      "left_source_context": "SE Hybrid Nightshade\nSE Hybrid Nightshade shown in Reservoir Blue.\nAll-Wheel Drive (AWD) capability or taking your\nadventures a confidence boost with available\ndaily commutes as far as they can with hybrid\na perfect match for you. Whether giving your",
+      "right_source_context": "SE Hybrid Nightshade shown in Reservoir Blue\nSE Hybrid Nightshade shown in Reservoir Blue.\nefficiency, there\u2019s a Camry fit for your lifestyle.\ndaily commutes as far as they can with hybrid\nAll-Wheel Drive (AWD) capability or taking your",
+      "scoped_text": 0.95597904920578,
+      "scoped_text_figure": 0.9387056231498718,
+      "scoped_text_crop": 0.936262458562851,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "camry_ebrochure",
+      "split": "heldout",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "nightshade",
+      "left_label": "SE Hybrid Nightshade shown in Reservoir Blue",
+      "left_figure": "lower",
+      "left_page": 2,
+      "left_bbox": [
+        281,
+        517,
+        794,
+        759
+      ],
+      "left_figure_bbox": [
+        69,
+        460,
+        935,
+        830
+      ],
+      "right_entity": "exterior_left",
+      "right_label": "Camry",
+      "right_figure": "exterior",
+      "right_page": 5,
+      "right_bbox": [
+        28,
+        427,
+        440,
+        562
+      ],
+      "right_figure_bbox": [
+        0,
+        270,
+        999,
+        595
+      ],
+      "text": 0.3465465307235718,
+      "figure": 0.8969120383262634,
+      "crop": 0.9528518915176392,
+      "left_source_context": "SE Hybrid Nightshade shown in Reservoir Blue\nSE Hybrid Nightshade shown in Reservoir Blue.\nefficiency, there\u2019s a Camry fit for your lifestyle.\ndaily commutes as far as they can with hybrid\nAll-Wheel Drive (AWD) capability or taking your",
+      "right_source_context": "Camry\nLeft to right: XSE Hybrid shown in Celestial Silver Metallic and Midnight Black Metallic roof (extra-cost color) with available power tilt/slide moonroof;\nXLE shown in Wind Chill Pearl (extra-cost color) with available Driver Assist Package and panoramic glass roof with front power tilt/slide moonroof\nSeat details\nCamry SE Nightshade\nShow off Camry\u2019s dark side with Camry SE",
+      "scoped_text": 0.7924771308898926,
+      "scoped_text_figure": 0.844694584608078,
+      "scoped_text_crop": 0.8726645112037659,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "camry_ebrochure",
+      "split": "heldout",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "nightshade",
+      "left_label": "SE Hybrid Nightshade",
+      "left_figure": "lower",
+      "left_page": 2,
+      "left_bbox": [
+        281,
+        517,
+        794,
+        759
+      ],
+      "left_figure_bbox": [
+        69,
+        460,
+        935,
+        830
+      ],
+      "right_entity": "exterior_left",
+      "right_label": "Camry",
+      "right_figure": "exterior",
+      "right_page": 5,
+      "right_bbox": [
+        28,
+        427,
+        440,
+        562
+      ],
+      "right_figure_bbox": [
+        0,
+        270,
+        999,
+        595
+      ],
+      "text": 0.49997320771217346,
+      "figure": 0.8969120383262634,
+      "crop": 0.9528518915176392,
+      "left_source_context": "SE Hybrid Nightshade\nSE Hybrid Nightshade shown in Reservoir Blue.\nefficiency, there\u2019s a Camry fit for your lifestyle.\ndaily commutes as far as they can with hybrid\nAll-Wheel Drive (AWD) capability or taking your",
+      "right_source_context": "Camry\nLeft to right: XSE Hybrid shown in Celestial Silver Metallic and Midnight Black Metallic roof (extra-cost color) with available power tilt/slide moonroof;\nXLE shown in Wind Chill Pearl (extra-cost color) with available Driver Assist Package and panoramic glass roof with front power tilt/slide moonroof\nSeat details\nCamry SE Nightshade\nShow off Camry\u2019s dark side with Camry SE",
+      "scoped_text": 0.7821926474571228,
+      "scoped_text_figure": 0.8395523428916931,
+      "scoped_text_crop": 0.867522269487381,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "camry_ebrochure",
+      "split": "heldout",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "nightshade",
+      "left_label": "Camry SE Nightshade",
+      "left_figure": "details",
+      "left_page": 5,
+      "left_bbox": [
+        25,
+        617,
+        295,
+        740
+      ],
+      "left_figure_bbox": [
+        0,
+        595,
+        999,
+        758
+      ],
+      "right_entity": "exterior_right",
+      "right_label": "Camry",
+      "right_figure": "exterior",
+      "right_page": 5,
+      "right_bbox": [
+        468,
+        369,
+        954,
+        588
+      ],
+      "right_figure_bbox": [
+        0,
+        270,
+        999,
+        595
+      ],
+      "text": 0.5914721488952637,
+      "figure": 0.8228613138198853,
+      "crop": 0.9041492938995361,
+      "left_source_context": "Camry SE Nightshade\nXLE shown in Wind Chill Pearl (extra-cost color) with available Driver Assist Package and panoramic glass roof with front power tilt/slide moonroof\nLeft to right: XSE Hybrid shown in Celestial Silver Metallic and Midnight Black Metallic roof (extra-cost color) with available power tilt/slide moonroof;\nShow off Camry\u2019s dark side with Camry SE\nNightshade. Available in both gas and\nSeat details\nFloating touchscreen display",
+      "right_source_context": "Camry\nLeft to right: XSE Hybrid shown in Celestial Silver Metallic and Midnight Black Metallic roof (extra-cost color) with available power tilt/slide moonroof;\nXLE shown in Wind Chill Pearl (extra-cost color) with available Driver Assist Package and panoramic glass roof with front power tilt/slide moonroof\nLights (DRL) that add an illuminating touch.\nLED headlights and fully integrated LED Daytime Running\nFloating touchscreen display",
+      "scoped_text": 0.9408773183822632,
+      "scoped_text_figure": 0.8818693161010742,
+      "scoped_text_crop": 0.9225133061408997,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "nova_y70",
+      "split": "heldout",
+      "stratum": "same_name_same",
+      "same_region": false,
+      "left_entity": "switch_gesture",
+      "left_label": "Switch between apps",
+      "left_figure": "switching",
+      "left_page": 4,
+      "left_bbox": [
+        90,
+        80,
+        225,
+        205
+      ],
+      "left_figure_bbox": [
+        80,
+        74,
+        890,
+        333
+      ],
+      "right_entity": "switch_gesture",
+      "right_label": "Switch between apps",
+      "right_figure": "switching",
+      "right_page": 4,
+      "right_bbox": [
+        89,
+        205,
+        225,
+        330
+      ],
+      "right_figure_bbox": [
+        80,
+        74,
+        890,
+        333
+      ],
+      "text": 0.9999999403953552,
+      "figure": 1.0000001192092896,
+      "crop": 0.8741946220397949,
+      "left_source_context": "Switch between apps\n\u2022 Slide across the bottom edge of the screen to switch between apps.\n\u2022 Swipe across the bottom of the screen in an arc to switch between apps.\nscreen, and ensure that Slide across bottom to switch apps is enabled.\nBefore using this gesture, touch Settings on the System navigation\nKnuckle Gestures\nEssentials",
+      "right_source_context": "Switch between apps\nIf your device does not have the Slide across bottom to switch apps switch, it indicates\nthat the corresponding feature is not supported.\nKnuckle Gestures\n\u2022 Swipe across the bottom of the screen in an arc to switch between apps.\nBefore using knuckle gestures, use either of the following methods to make sure that all\nEssentials",
+      "scoped_text": 0.9354158639907837,
+      "scoped_text_figure": 0.9677079916000366,
+      "scoped_text_crop": 0.9048052430152893,
+      "scoped_text_decision": "merge",
+      "scoped_text_figure_decision": "merge",
+      "scoped_text_crop_decision": "merge"
+    },
+    {
+      "document": "nova_y70",
+      "split": "heldout",
+      "stratum": "different_name_same",
+      "same_region": false,
+      "left_entity": "switch_gesture",
+      "left_label": "Slide across bottom to switch apps",
+      "left_figure": "switching",
+      "left_page": 4,
+      "left_bbox": [
+        90,
+        80,
+        225,
+        205
+      ],
+      "left_figure_bbox": [
+        80,
+        74,
+        890,
+        333
+      ],
+      "right_entity": "switch_gesture",
+      "right_label": "Switch between apps",
+      "right_figure": "switching",
+      "right_page": 4,
+      "right_bbox": [
+        89,
+        205,
+        225,
+        330
+      ],
+      "right_figure_bbox": [
+        80,
+        74,
+        890,
+        333
+      ],
+      "text": 0.8731323480606079,
+      "figure": 1.0000001192092896,
+      "crop": 0.8741946220397949,
+      "left_source_context": "Slide across bottom to switch apps\n\u2022 Slide across the bottom edge of the screen to switch between apps.\n\u2022 Swipe across the bottom of the screen in an arc to switch between apps.\nscreen, and ensure that Slide across bottom to switch apps is enabled.\nBefore using this gesture, touch Settings on the System navigation\nSwitch between apps\nKnuckle Gestures\nEssentials",
+      "right_source_context": "Switch between apps\nIf your device does not have the Slide across bottom to switch apps switch, it indicates\nthat the corresponding feature is not supported.\nKnuckle Gestures\n\u2022 Swipe across the bottom of the screen in an arc to switch between apps.\nBefore using knuckle gestures, use either of the following methods to make sure that all\nEssentials",
+      "scoped_text": 0.9351767301559448,
+      "scoped_text_figure": 0.9675884246826172,
+      "scoped_text_crop": 0.9046856760978699,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "nova_y70",
+      "split": "heldout",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "switch_gesture",
+      "left_label": "Switch between apps",
+      "left_figure": "switching",
+      "left_page": 4,
+      "left_bbox": [
+        89,
+        205,
+        225,
+        330
+      ],
+      "left_figure_bbox": [
+        80,
+        74,
+        890,
+        333
+      ],
+      "right_entity": "scrollshot",
+      "right_label": "Take a scrollshot",
+      "right_figure": "knuckle",
+      "right_page": 4,
+      "right_bbox": [
+        90,
+        692,
+        239,
+        798
+      ],
+      "right_figure_bbox": [
+        80,
+        588,
+        890,
+        900
+      ],
+      "text": 0.7124638557434082,
+      "figure": 0.7245975732803345,
+      "crop": 0.721534252166748,
+      "left_source_context": "Switch between apps\nIf your device does not have the Slide across bottom to switch apps switch, it indicates\nthat the corresponding feature is not supported.\nKnuckle Gestures\n\u2022 Swipe across the bottom of the screen in an arc to switch between apps.\nBefore using knuckle gestures, use either of the following methods to make sure that all\nEssentials",
+      "right_source_context": "Take a scrollshot\nKnock on the screen with a knuckle and draw an \"S\" to take a scrolling\nscreenshot.\nCapture part of the screen\nKnock and draw an enclosed area with a knuckle to capture part of the\nKnock twice on the screen with a knuckle to take a screenshot.\nTake a screenshot",
+      "scoped_text": 0.6338315606117249,
+      "scoped_text_figure": 0.6792145669460297,
+      "scoped_text_crop": 0.6776829063892365,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "nova_y70",
+      "split": "heldout",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "switch_gesture",
+      "left_label": "Slide across bottom to switch apps",
+      "left_figure": "switching",
+      "left_page": 4,
+      "left_bbox": [
+        90,
+        80,
+        225,
+        205
+      ],
+      "left_figure_bbox": [
+        80,
+        74,
+        890,
+        333
+      ],
+      "right_entity": "scrollshot",
+      "right_label": "scrolling screenshot",
+      "right_figure": "knuckle",
+      "right_page": 4,
+      "right_bbox": [
+        90,
+        692,
+        239,
+        798
+      ],
+      "right_figure_bbox": [
+        80,
+        588,
+        890,
+        900
+      ],
+      "text": 0.7356119751930237,
+      "figure": 0.7245975732803345,
+      "crop": 0.7422308921813965,
+      "left_source_context": "Slide across bottom to switch apps\n\u2022 Slide across the bottom edge of the screen to switch between apps.\n\u2022 Swipe across the bottom of the screen in an arc to switch between apps.\nscreen, and ensure that Slide across bottom to switch apps is enabled.\nBefore using this gesture, touch Settings on the System navigation\nSwitch between apps\nKnuckle Gestures\nEssentials",
+      "right_source_context": "scrolling screenshot\nKnock on the screen with a knuckle and draw an \"S\" to take a scrolling\nscreenshot.\nCapture part of the screen\nKnock and draw an enclosed area with a knuckle to capture part of the\nTake a scrollshot\nKnock twice on the screen with a knuckle to take a screenshot.\nTake a screenshot",
+      "scoped_text": 0.6152564883232117,
+      "scoped_text_figure": 0.6699270308017731,
+      "scoped_text_crop": 0.6787436902523041,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "nova_y70",
+      "split": "heldout",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "home_gesture",
+      "left_label": "Back to home screen",
+      "left_figure": "navigation",
+      "left_page": 3,
+      "left_bbox": [
+        96,
+        481,
+        234,
+        598
+      ],
+      "left_figure_bbox": [
+        80,
+        312,
+        893,
+        829
+      ],
+      "right_entity": "scrollshot",
+      "right_label": "Take a scrollshot",
+      "right_figure": "knuckle",
+      "right_page": 4,
+      "right_bbox": [
+        90,
+        692,
+        239,
+        798
+      ],
+      "right_figure_bbox": [
+        80,
+        588,
+        890,
+        900
+      ],
+      "text": 0.6913259625434875,
+      "figure": 0.7981072664260864,
+      "crop": 0.8014326095581055,
+      "left_source_context": "Back to home screen\nRecent tasks\nSwipe up from the bottom of the screen and hold to view recent tasks.\nClose an app\nSwipe up from the bottom to go to the home screen.\nWhen viewing recent tasks, swipe up on an app preview to close the app.\nReturn to the previous screen",
+      "right_source_context": "Take a scrollshot\nKnock on the screen with a knuckle and draw an \"S\" to take a scrolling\nscreenshot.\nCapture part of the screen\nKnock and draw an enclosed area with a knuckle to capture part of the\nKnock twice on the screen with a knuckle to take a screenshot.\nTake a screenshot",
+      "scoped_text": 0.6124382615089417,
+      "scoped_text_figure": 0.705272763967514,
+      "scoped_text_crop": 0.7069354355335236,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "nova_y70",
+      "split": "heldout",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "home_gesture",
+      "left_label": "go to the home screen",
+      "left_figure": "navigation",
+      "left_page": 3,
+      "left_bbox": [
+        96,
+        481,
+        234,
+        598
+      ],
+      "left_figure_bbox": [
+        80,
+        312,
+        893,
+        829
+      ],
+      "right_entity": "scrollshot",
+      "right_label": "scrolling screenshot",
+      "right_figure": "knuckle",
+      "right_page": 4,
+      "right_bbox": [
+        90,
+        692,
+        239,
+        798
+      ],
+      "right_figure_bbox": [
+        80,
+        588,
+        890,
+        900
+      ],
+      "text": 0.7257912158966064,
+      "figure": 0.7981072664260864,
+      "crop": 0.8014326095581055,
+      "left_source_context": "go to the home screen\nRecent tasks\nSwipe up from the bottom of the screen and hold to view recent tasks.\nClose an app\nSwipe up from the bottom to go to the home screen.\nWhen viewing recent tasks, swipe up on an app preview to close the app.\nReturn to the previous screen",
+      "right_source_context": "scrolling screenshot\nKnock on the screen with a knuckle and draw an \"S\" to take a scrolling\nscreenshot.\nCapture part of the screen\nKnock and draw an enclosed area with a knuckle to capture part of the\nTake a scrollshot\nKnock twice on the screen with a knuckle to take a screenshot.\nTake a screenshot",
+      "scoped_text": 0.6014218926429749,
+      "scoped_text_figure": 0.6997645795345306,
+      "scoped_text_crop": 0.7014272511005402,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "obs-productdesc-en",
+      "split": "heldout",
+      "stratum": "same_name_same",
+      "same_region": false,
+      "left_entity": "obs_service",
+      "left_label": "OBS",
+      "left_figure": "concurrent",
+      "left_page": 13,
+      "left_bbox": [
+        500,
+        132,
+        645,
+        231
+      ],
+      "left_figure_bbox": [
+        289,
+        130,
+        924,
+        407
+      ],
+      "right_entity": "obs_service",
+      "right_label": "OBS",
+      "right_figure": "logging",
+      "right_page": 36,
+      "right_bbox": [
+        257,
+        268,
+        438,
+        417
+      ],
+      "right_figure_bbox": [
+        246,
+        116,
+        932,
+        465
+      ],
+      "text": 1.0,
+      "figure": 0.5684258937835693,
+      "crop": 0.8443912267684937,
+      "left_source_context": "OBS\nFigure 2-2 Access to numerous objects at high-level concurrency\nEasy use and management: OBS provides standard REST APIs, SDKs in\n2 Advantages\ndifferent programming languages, and data migration tools to help you\nquickly move your workloads to cloud. Storage resources are linearly, infinitely\nscalable, without compromising performance. You do not have to plan storage",
+      "right_source_context": "OBS\nYou can enable OBS logging for bucket analysis or audit. After logging is enabled\nfor a bucket, OBS automatically logs access requests for the bucket and writes the\nLogging\ngenerated log files into the specified bucket. With access logs, the bucket owner\ncan deeply analyze the characteristics, types, or trends of requests sent to the\nProduct Introduction",
+      "scoped_text": 0.7109031677246094,
+      "scoped_text_figure": 0.6396645307540894,
+      "scoped_text_crop": 0.7776471972465515,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "merge"
+    },
+    {
+      "document": "obs-productdesc-en",
+      "split": "heldout",
+      "stratum": "same_name_same",
+      "same_region": false,
+      "left_entity": "reliability_pyramid",
+      "left_label": "Five-level reliability architecture",
+      "left_figure": "reliable_a",
+      "left_page": 12,
+      "left_bbox": [
+        486,
+        159,
+        714,
+        513
+      ],
+      "left_figure_bbox": [
+        268,
+        116,
+        910,
+        531
+      ],
+      "right_entity": "reliability_pyramid",
+      "right_label": "Five-level reliability architecture",
+      "right_figure": "reliable_b",
+      "right_page": 37,
+      "right_bbox": [
+        486,
+        159,
+        714,
+        524
+      ],
+      "right_figure_bbox": [
+        269,
+        116,
+        910,
+        535
+      ],
+      "text": 1.0,
+      "figure": 0.847259521484375,
+      "crop": 0.7953146696090698,
+      "left_source_context": "Five-level reliability architecture\nMulti-level protection and authorization management: OBS has passed\nthe Trusted Cloud Service (TRUCS) certification. Measures, including\nversioning, server-side encryption, URL validation, virtual private cloud (VPC)-\nbased network isolation, access log audit, and fine-grained access control are\nprovided to keep data secure and trusted.\n\u25cf\nHighly concurrent access for hundreds of billions of objects: With",
+      "right_source_context": "Five-level reliability architecture\nOBS uses Cloud Eye to perform monitoring over resources and operations, helping\nyou monitor your buckets and receive alarms and notifications in real time. You\ncan get the details about requests, traffic, bandwidth, error responses, and storage\nFigure 5-3 Five-level reliability architecture of OBS\nFor details about OBS monitoring metrics and how to create alarm rules, see\nusage of your buckets.",
+      "scoped_text": 0.7290957570075989,
+      "scoped_text_figure": 0.7881776392459869,
+      "scoped_text_crop": 0.7622052133083344,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "merge"
+    },
+    {
+      "document": "obs-productdesc-en",
+      "split": "heldout",
+      "stratum": "different_name_same",
+      "same_region": false,
+      "left_entity": "reliability_pyramid",
+      "left_label": "Five-level reliability architecture",
+      "left_figure": "reliable_a",
+      "left_page": 12,
+      "left_bbox": [
+        486,
+        159,
+        714,
+        513
+      ],
+      "left_figure_bbox": [
+        268,
+        116,
+        910,
+        531
+      ],
+      "right_entity": "reliability_pyramid",
+      "right_label": "Figure 5-3",
+      "right_figure": "reliable_b",
+      "right_page": 37,
+      "right_bbox": [
+        486,
+        159,
+        714,
+        524
+      ],
+      "right_figure_bbox": [
+        269,
+        116,
+        910,
+        535
+      ],
+      "text": 0.49574583768844604,
+      "figure": 0.847259521484375,
+      "crop": 0.7953146696090698,
+      "left_source_context": "Five-level reliability architecture\nMulti-level protection and authorization management: OBS has passed\nthe Trusted Cloud Service (TRUCS) certification. Measures, including\nversioning, server-side encryption, URL validation, virtual private cloud (VPC)-\nbased network isolation, access log audit, and fine-grained access control are\nprovided to keep data secure and trusted.\n\u25cf\nHighly concurrent access for hundreds of billions of objects: With",
+      "right_source_context": "Figure 5-3\nOBS uses Cloud Eye to perform monitoring over resources and operations, helping\nyou monitor your buckets and receive alarms and notifications in real time. You\ncan get the details about requests, traffic, bandwidth, error responses, and storage\nFigure 5-3 Five-level reliability architecture of OBS\nFor details about OBS monitoring metrics and how to create alarm rules, see\nusage of your buckets.",
+      "scoped_text": 0.6882134675979614,
+      "scoped_text_figure": 0.7677364945411682,
+      "scoped_text_crop": 0.7417640686035156,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "obs-productdesc-en",
+      "split": "heldout",
+      "stratum": "different_name_same",
+      "same_region": false,
+      "left_entity": "reliability_pyramid",
+      "left_label": "Figure 2-1",
+      "left_figure": "reliable_a",
+      "left_page": 12,
+      "left_bbox": [
+        486,
+        159,
+        714,
+        513
+      ],
+      "left_figure_bbox": [
+        268,
+        116,
+        910,
+        531
+      ],
+      "right_entity": "reliability_pyramid",
+      "right_label": "Figure 5-3",
+      "right_figure": "reliable_b",
+      "right_page": 37,
+      "right_bbox": [
+        486,
+        159,
+        714,
+        524
+      ],
+      "right_figure_bbox": [
+        269,
+        116,
+        910,
+        535
+      ],
+      "text": 0.9037683606147766,
+      "figure": 0.847259521484375,
+      "crop": 0.7953146696090698,
+      "left_source_context": "Figure 2-1\nMulti-level protection and authorization management: OBS has passed\nthe Trusted Cloud Service (TRUCS) certification. Measures, including\nversioning, server-side encryption, URL validation, virtual private cloud (VPC)-\nbased network isolation, access log audit, and fine-grained access control are\nprovided to keep data secure and trusted.\n\u25cf\nHighly concurrent access for hundreds of billions of objects: With",
+      "right_source_context": "Figure 5-3\nOBS uses Cloud Eye to perform monitoring over resources and operations, helping\nyou monitor your buckets and receive alarms and notifications in real time. You\ncan get the details about requests, traffic, bandwidth, error responses, and storage\nFigure 5-3 Five-level reliability architecture of OBS\nFor details about OBS monitoring metrics and how to create alarm rules, see\nusage of your buckets.",
+      "scoped_text": 0.6815821528434753,
+      "scoped_text_figure": 0.7644208371639252,
+      "scoped_text_crop": 0.7384484112262726,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "obs-productdesc-en",
+      "split": "heldout",
+      "stratum": "different_name_same",
+      "same_region": false,
+      "left_entity": "reliability_pyramid",
+      "left_label": "Figure 2-1",
+      "left_figure": "reliable_a",
+      "left_page": 12,
+      "left_bbox": [
+        486,
+        159,
+        714,
+        513
+      ],
+      "left_figure_bbox": [
+        268,
+        116,
+        910,
+        531
+      ],
+      "right_entity": "reliability_pyramid",
+      "right_label": "Five-level reliability architecture",
+      "right_figure": "reliable_b",
+      "right_page": 37,
+      "right_bbox": [
+        486,
+        159,
+        714,
+        524
+      ],
+      "right_figure_bbox": [
+        269,
+        116,
+        910,
+        535
+      ],
+      "text": 0.5595006346702576,
+      "figure": 0.847259521484375,
+      "crop": 0.7953146696090698,
+      "left_source_context": "Figure 2-1\nMulti-level protection and authorization management: OBS has passed\nthe Trusted Cloud Service (TRUCS) certification. Measures, including\nversioning, server-side encryption, URL validation, virtual private cloud (VPC)-\nbased network isolation, access log audit, and fine-grained access control are\nprovided to keep data secure and trusted.\n\u25cf\nHighly concurrent access for hundreds of billions of objects: With",
+      "right_source_context": "Five-level reliability architecture\nOBS uses Cloud Eye to perform monitoring over resources and operations, helping\nyou monitor your buckets and receive alarms and notifications in real time. You\ncan get the details about requests, traffic, bandwidth, error responses, and storage\nFigure 5-3 Five-level reliability architecture of OBS\nFor details about OBS monitoring metrics and how to create alarm rules, see\nusage of your buckets.",
+      "scoped_text": 0.7075477838516235,
+      "scoped_text_figure": 0.7774036526679993,
+      "scoped_text_crop": 0.7514312267303467,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "obs-productdesc-en",
+      "split": "heldout",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "reliability_pyramid",
+      "left_label": "Five-level reliability architecture",
+      "left_figure": "reliable_a",
+      "left_page": 12,
+      "left_bbox": [
+        486,
+        159,
+        714,
+        513
+      ],
+      "left_figure_bbox": [
+        268,
+        116,
+        910,
+        531
+      ],
+      "right_entity": "cts_service",
+      "right_label": "CTS",
+      "right_figure": "logging",
+      "right_page": 36,
+      "right_bbox": [
+        730,
+        268,
+        928,
+        417
+      ],
+      "right_figure_bbox": [
+        246,
+        116,
+        932,
+        465
+      ],
+      "text": 0.5449671149253845,
+      "figure": 0.6057720184326172,
+      "crop": 0.46811026334762573,
+      "left_source_context": "Five-level reliability architecture\nMulti-level protection and authorization management: OBS has passed\nthe Trusted Cloud Service (TRUCS) certification. Measures, including\nversioning, server-side encryption, URL validation, virtual private cloud (VPC)-\nbased network isolation, access log audit, and fine-grained access control are\nprovided to keep data secure and trusted.\n\u25cf\nHighly concurrent access for hundreds of billions of objects: With",
+      "right_source_context": "CTS\nYou can enable OBS logging for bucket analysis or audit. After logging is enabled\nfor a bucket, OBS automatically logs access requests for the bucket and writes the\ngenerated log files into the specified bucket. With access logs, the bucket owner\ncan deeply analyze the characteristics, types, or trends of requests sent to the\nFor the introduction and configuration of OBS logging, see Logging.\nProduct Introduction",
+      "scoped_text": 0.6663491129875183,
+      "scoped_text_figure": 0.6360605657100677,
+      "scoped_text_crop": 0.567229688167572,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "obs-productdesc-en",
+      "split": "heldout",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "reliability_pyramid",
+      "left_label": "Figure 2-1",
+      "left_figure": "reliable_a",
+      "left_page": 12,
+      "left_bbox": [
+        486,
+        159,
+        714,
+        513
+      ],
+      "left_figure_bbox": [
+        268,
+        116,
+        910,
+        531
+      ],
+      "right_entity": "cts_service",
+      "right_label": "Cloud Trace Service",
+      "right_figure": "logging",
+      "right_page": 36,
+      "right_bbox": [
+        730,
+        268,
+        928,
+        417
+      ],
+      "right_figure_bbox": [
+        246,
+        116,
+        932,
+        465
+      ],
+      "text": 0.623119592666626,
+      "figure": 0.6057720184326172,
+      "crop": 0.46811026334762573,
+      "left_source_context": "Figure 2-1\nMulti-level protection and authorization management: OBS has passed\nthe Trusted Cloud Service (TRUCS) certification. Measures, including\nversioning, server-side encryption, URL validation, virtual private cloud (VPC)-\nbased network isolation, access log audit, and fine-grained access control are\nprovided to keep data secure and trusted.\n\u25cf\nHighly concurrent access for hundreds of billions of objects: With",
+      "right_source_context": "Cloud Trace Service\nYou can enable OBS logging for bucket analysis or audit. After logging is enabled\nfor a bucket, OBS automatically logs access requests for the bucket and writes the\ngenerated log files into the specified bucket. With access logs, the bucket owner\ncan deeply analyze the characteristics, types, or trends of requests sent to the\nFor the introduction and configuration of OBS logging, see Logging.\nProduct Introduction",
+      "scoped_text": 0.6663353443145752,
+      "scoped_text_figure": 0.6360536813735962,
+      "scoped_text_crop": 0.5672228038311005,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "obs-productdesc-en",
+      "split": "heldout",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "obs_service",
+      "left_label": "OBS",
+      "left_figure": "concurrent",
+      "left_page": 13,
+      "left_bbox": [
+        500,
+        132,
+        645,
+        231
+      ],
+      "left_figure_bbox": [
+        289,
+        130,
+        924,
+        407
+      ],
+      "right_entity": "cts_service",
+      "right_label": "Cloud Trace Service",
+      "right_figure": "logging",
+      "right_page": 36,
+      "right_bbox": [
+        730,
+        268,
+        928,
+        417
+      ],
+      "right_figure_bbox": [
+        246,
+        116,
+        932,
+        465
+      ],
+      "text": 0.4159044325351715,
+      "figure": 0.5684258937835693,
+      "crop": 0.7164129018783569,
+      "left_source_context": "OBS\nFigure 2-2 Access to numerous objects at high-level concurrency\nEasy use and management: OBS provides standard REST APIs, SDKs in\n2 Advantages\ndifferent programming languages, and data migration tools to help you\nquickly move your workloads to cloud. Storage resources are linearly, infinitely\nscalable, without compromising performance. You do not have to plan storage",
+      "right_source_context": "Cloud Trace Service\nYou can enable OBS logging for bucket analysis or audit. After logging is enabled\nfor a bucket, OBS automatically logs access requests for the bucket and writes the\ngenerated log files into the specified bucket. With access logs, the bucket owner\ncan deeply analyze the characteristics, types, or trends of requests sent to the\nFor the introduction and configuration of OBS logging, see Logging.\nProduct Introduction",
+      "scoped_text": 0.7058663964271545,
+      "scoped_text_figure": 0.6371461451053619,
+      "scoped_text_crop": 0.7111396491527557,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "stereo_headset",
+      "split": "development",
+      "stratum": "same_name_same",
+      "same_region": false,
+      "left_entity": "headband",
+      "left_label": "headband",
+      "left_figure": "hero",
+      "left_page": 1,
+      "left_bbox": [
+        391,
+        151,
+        642,
+        347
+      ],
+      "left_figure_bbox": [
+        324,
+        146,
+        661,
+        482
+      ],
+      "right_entity": "headband",
+      "right_label": "headband",
+      "right_figure": "case",
+      "right_page": 10,
+      "right_bbox": [
+        115,
+        215,
+        204,
+        276
+      ],
+      "right_figure_bbox": [
+        99,
+        203,
+        721,
+        337
+      ],
+      "text": 1.0,
+      "figure": 0.664326548576355,
+      "crop": 0.47755497694015503,
+      "left_source_context": "headband\nWireless Noise Canceling Stereo Headset\nUse this manual if you encounter any problems, or have any questions.\nUpdate the software of the headset and \u201cSony | Headphones Connect\u201d app to the latest version. For details, refer to the\nWH-1000XM4\nHelp Guide",
+      "right_source_context": "headband\nheadband, and store them in the supplied carrying case.\nWhen you have finished using the headset, rotate the left and right units to flatten the headset, fold one unit toward the\nSetting the headset in the carrying case\nTo store the cables and plug adaptor for in-flight use\nPut the cables and plug adaptor for in-flight use in the holder separated by the divider in the carrying case.",
+      "scoped_text": 0.659918487071991,
+      "scoped_text_figure": 0.662122517824173,
+      "scoped_text_crop": 0.568736732006073,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "stereo_headset",
+      "split": "development",
+      "stratum": "same_name_same",
+      "same_region": false,
+      "left_entity": "headband",
+      "left_label": "headband",
+      "left_figure": "hero",
+      "left_page": 1,
+      "left_bbox": [
+        391,
+        151,
+        642,
+        347
+      ],
+      "left_figure_bbox": [
+        324,
+        146,
+        661,
+        482
+      ],
+      "right_entity": "headband",
+      "right_label": "Headband",
+      "right_figure": "controls",
+      "right_page": 11,
+      "right_bbox": [
+        120,
+        188,
+        324,
+        298
+      ],
+      "right_figure_bbox": [
+        68,
+        167,
+        620,
+        736
+      ],
+      "text": 1.0,
+      "figure": 0.7359400391578674,
+      "crop": 0.6801021099090576,
+      "left_source_context": "headband\nWireless Noise Canceling Stereo Headset\nUse this manual if you encounter any problems, or have any questions.\nUpdate the software of the headset and \u201cSony | Headphones Connect\u201d app to the latest version. For details, refer to the\nWH-1000XM4\nHelp Guide",
+      "right_source_context": "Headband\nLocation and function of parts\nWH-1000XM4\nWireless Noise Canceling Stereo Headset\nHelp Guide\n(left) mark\n1.",
+      "scoped_text": 0.8080729842185974,
+      "scoped_text_figure": 0.7720065116882324,
+      "scoped_text_crop": 0.7440875470638275,
+      "scoped_text_decision": "merge",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "merge"
+    },
+    {
+      "document": "stereo_headset",
+      "split": "development",
+      "stratum": "different_name_same",
+      "same_region": false,
+      "left_entity": "headband",
+      "left_label": "7",
+      "left_figure": "controls",
+      "left_page": 11,
+      "left_bbox": [
+        120,
+        188,
+        324,
+        298
+      ],
+      "left_figure_bbox": [
+        68,
+        167,
+        620,
+        736
+      ],
+      "right_entity": "headband",
+      "right_label": "headband",
+      "right_figure": "case",
+      "right_page": 10,
+      "right_bbox": [
+        115,
+        215,
+        204,
+        276
+      ],
+      "right_figure_bbox": [
+        99,
+        203,
+        721,
+        337
+      ],
+      "text": 0.47104954719543457,
+      "figure": 0.8671915531158447,
+      "crop": 0.7067604064941406,
+      "left_source_context": "7\nLocation and function of parts\nWH-1000XM4\nWireless Noise Canceling Stereo Headset\nHelp Guide\n(left) mark\n1.",
+      "right_source_context": "headband\nheadband, and store them in the supplied carrying case.\nWhen you have finished using the headset, rotate the left and right units to flatten the headset, fold one unit toward the\nSetting the headset in the carrying case\nTo store the cables and plug adaptor for in-flight use\nPut the cables and plug adaptor for in-flight use in the holder separated by the divider in the carrying case.",
+      "scoped_text": 0.6363688111305237,
+      "scoped_text_figure": 0.7517801821231842,
+      "scoped_text_crop": 0.6715646088123322,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "stereo_headset",
+      "split": "development",
+      "stratum": "different_name_same",
+      "same_region": false,
+      "left_entity": "headband",
+      "left_label": "headband",
+      "left_figure": "hero",
+      "left_page": 1,
+      "left_bbox": [
+        391,
+        151,
+        642,
+        347
+      ],
+      "left_figure_bbox": [
+        324,
+        146,
+        661,
+        482
+      ],
+      "right_entity": "headband",
+      "right_label": "7",
+      "right_figure": "controls",
+      "right_page": 11,
+      "right_bbox": [
+        120,
+        188,
+        324,
+        298
+      ],
+      "right_figure_bbox": [
+        68,
+        167,
+        620,
+        736
+      ],
+      "text": 0.47104954719543457,
+      "figure": 0.7359400391578674,
+      "crop": 0.6801021099090576,
+      "left_source_context": "headband\nWireless Noise Canceling Stereo Headset\nUse this manual if you encounter any problems, or have any questions.\nUpdate the software of the headset and \u201cSony | Headphones Connect\u201d app to the latest version. For details, refer to the\nWH-1000XM4\nHelp Guide",
+      "right_source_context": "7\nLocation and function of parts\nWH-1000XM4\nWireless Noise Canceling Stereo Headset\nHelp Guide\n(left) mark\n1.",
+      "scoped_text": 0.7825048565864563,
+      "scoped_text_figure": 0.7592224478721619,
+      "scoped_text_crop": 0.731303483247757,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "stereo_headset",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "headband",
+      "left_label": "7",
+      "left_figure": "controls",
+      "left_page": 11,
+      "left_bbox": [
+        120,
+        188,
+        324,
+        298
+      ],
+      "left_figure_bbox": [
+        68,
+        167,
+        620,
+        736
+      ],
+      "right_entity": "touch",
+      "right_label": "12",
+      "right_figure": "controls",
+      "right_page": 11,
+      "right_bbox": [
+        424,
+        268,
+        573,
+        391
+      ],
+      "right_figure_bbox": [
+        68,
+        167,
+        620,
+        736
+      ],
+      "text": 0.8916440606117249,
+      "figure": 1.0,
+      "crop": 0.8115893602371216,
+      "left_source_context": "7\nLocation and function of parts\nWH-1000XM4\nWireless Noise Canceling Stereo Headset\nHelp Guide\n(left) mark\n1.",
+      "right_source_context": "12\nLocation and function of parts\nWireless Noise Canceling Stereo Headset\nWH-1000XM4\nHelp Guide\nA Bluetooth antenna is built into the headset.\n1.\n(left) mark",
+      "scoped_text": 0.9051709175109863,
+      "scoped_text_figure": 0.9525854587554932,
+      "scoped_text_crop": 0.858380138874054,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "stereo_headset",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "headband",
+      "left_label": "Headband",
+      "left_figure": "controls",
+      "left_page": 11,
+      "left_bbox": [
+        120,
+        188,
+        324,
+        298
+      ],
+      "left_figure_bbox": [
+        68,
+        167,
+        620,
+        736
+      ],
+      "right_entity": "left_unit",
+      "right_label": "Left unit",
+      "right_figure": "controls",
+      "right_page": 11,
+      "right_bbox": [
+        104,
+        301,
+        218,
+        391
+      ],
+      "right_figure_bbox": [
+        68,
+        167,
+        620,
+        736
+      ],
+      "text": 0.6145377159118652,
+      "figure": 1.0,
+      "crop": 0.8812698721885681,
+      "left_source_context": "Headband\nLocation and function of parts\nWH-1000XM4\nWireless Noise Canceling Stereo Headset\nHelp Guide\n(left) mark\n1.",
+      "right_source_context": "Left unit\nLocation and function of parts\nWH-1000XM4\nWireless Noise Canceling Stereo Headset\nHelp Guide\n(left) mark\n1.",
+      "scoped_text": 0.9530950784683228,
+      "scoped_text_figure": 0.9765475392341614,
+      "scoped_text_crop": 0.9171824753284454,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "stereo_headset",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "headband",
+      "left_label": "headband",
+      "left_figure": "case",
+      "left_page": 10,
+      "left_bbox": [
+        115,
+        215,
+        204,
+        276
+      ],
+      "left_figure_bbox": [
+        99,
+        203,
+        721,
+        337
+      ],
+      "right_entity": "touch",
+      "right_label": "Touch sensor control panel",
+      "right_figure": "controls",
+      "right_page": 11,
+      "right_bbox": [
+        424,
+        268,
+        573,
+        391
+      ],
+      "right_figure_bbox": [
+        68,
+        167,
+        620,
+        736
+      ],
+      "text": 0.6543223857879639,
+      "figure": 0.8671915531158447,
+      "crop": 0.5615457892417908,
+      "left_source_context": "headband\nheadband, and store them in the supplied carrying case.\nWhen you have finished using the headset, rotate the left and right units to flatten the headset, fold one unit toward the\nSetting the headset in the carrying case\nTo store the cables and plug adaptor for in-flight use\nPut the cables and plug adaptor for in-flight use in the holder separated by the divider in the carrying case.",
+      "right_source_context": "Touch sensor control panel\nLocation and function of parts\nWireless Noise Canceling Stereo Headset\nWH-1000XM4\nHelp Guide\nA Bluetooth antenna is built into the headset.\n1.\n(left) mark",
+      "scoped_text": 0.6292033195495605,
+      "scoped_text_figure": 0.7481974363327026,
+      "scoped_text_crop": 0.5953745543956757,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "t480_ug_en",
+      "split": "development",
+      "stratum": "same_name_different",
+      "same_region": false,
+      "left_entity": "usb_c_power",
+      "left_label": "1",
+      "left_figure": "left",
+      "left_page": 21,
+      "left_bbox": [
+        306,
+        410,
+        371,
+        451
+      ],
+      "left_figure_bbox": [
+        270,
+        370,
+        730,
+        473
+      ],
+      "right_entity": "audio",
+      "right_label": "1",
+      "right_figure": "right",
+      "right_page": 22,
+      "right_bbox": [
+        400,
+        458,
+        445,
+        493
+      ],
+      "right_figure_bbox": [
+        275,
+        456,
+        785,
+        540
+      ],
+      "text": 1.0000001192092896,
+      "figure": 0.9135910272598267,
+      "crop": 0.8282056450843811,
+      "left_source_context": "1\n3 Docking-station connector\n1 USB-C\u2122 connector\nLeft-side view\nsee \u201cUsing the multi-touch screen\u201d on page 18.\nThe multi-touch screen enables you to use your computer with simple touch gestures. For more information,\n4 Fan louvers",
+      "right_source_context": "1\nsee \u201cUsing a media card or a smart card\u201d on page 34.\nmight also use smart cards for strong security authentication of single sign-on (SSO). For more information,\nUse smart cards for authentication, data storage, and application processing. Within large organizations, you\n2 USB 3.1 connector Gen 1\n4 Always On USB 3.1 connector Gen 1\nRight-side view\n1 Audio connector",
+      "scoped_text": 0.6528406739234924,
+      "scoped_text_figure": 0.7832158505916595,
+      "scoped_text_crop": 0.7405231595039368,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "t480_ug_en",
+      "split": "development",
+      "stratum": "same_name_different",
+      "same_region": false,
+      "left_entity": "usb_c_power",
+      "left_label": "1",
+      "left_figure": "left",
+      "left_page": 21,
+      "left_bbox": [
+        306,
+        410,
+        371,
+        451
+      ],
+      "left_figure_bbox": [
+        270,
+        370,
+        730,
+        473
+      ],
+      "right_entity": "battery",
+      "right_label": "1",
+      "right_figure": "bottom",
+      "right_page": 24,
+      "right_bbox": [
+        358,
+        139,
+        649,
+        215
+      ],
+      "right_figure_bbox": [
+        275,
+        105,
+        815,
+        408
+      ],
+      "text": 1.0000001192092896,
+      "figure": 0.8520643711090088,
+      "crop": 0.7239688634872437,
+      "left_source_context": "1\n3 Docking-station connector\n1 USB-C\u2122 connector\nLeft-side view\nsee \u201cUsing the multi-touch screen\u201d on page 18.\nThe multi-touch screen enables you to use your computer with simple touch gestures. For more information,\n4 Fan louvers",
+      "right_source_context": "1\nBottom view\n2 Latches\n4 Fan louvers\n6 Speakers\n3 Docking-station hook holes\n5 Keyboard drainage holes\n1 Removable battery",
+      "scoped_text": 0.6406891942024231,
+      "scoped_text_figure": 0.7463767826557159,
+      "scoped_text_crop": 0.6823290288448334,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "t480_ug_en",
+      "split": "development",
+      "stratum": "same_name_different",
+      "same_region": false,
+      "left_entity": "vents_left",
+      "left_label": "Fan louvers",
+      "left_figure": "left",
+      "left_page": 21,
+      "left_bbox": [
+        472,
+        407,
+        624,
+        451
+      ],
+      "left_figure_bbox": [
+        270,
+        370,
+        730,
+        473
+      ],
+      "right_entity": "vents_bottom",
+      "right_label": "Fan louvers",
+      "right_figure": "bottom",
+      "right_page": 24,
+      "right_bbox": [
+        613,
+        205,
+        774,
+        305
+      ],
+      "right_figure_bbox": [
+        275,
+        105,
+        815,
+        408
+      ],
+      "text": 1.0,
+      "figure": 0.8520643711090088,
+      "crop": 0.6608037948608398,
+      "left_source_context": "Fan louvers\n2 USB-C connector (Thunderbolt\u2122 3 compatible)\n4 Fan louvers\nsee \u201cUsing the multi-touch screen\u201d on page 18.\nThe multi-touch screen enables you to use your computer with simple touch gestures. For more information,\n11 Screen (multi-touch screen on some models)\nLeft-side view\n3 Docking-station connector",
+      "right_source_context": "Fan louvers\n2 Latches\n4 Fan louvers\n8 Nano-SIM card slot *\n6 Speakers\nYou can use the computer with battery power whenever ac power is unavailable.\n5 Keyboard drainage holes\n1 Removable battery",
+      "scoped_text": 0.7294008731842041,
+      "scoped_text_figure": 0.7907326221466064,
+      "scoped_text_crop": 0.695102334022522,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "none"
+    },
+    {
+      "document": "t480_ug_en",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "infrared_camera",
+      "left_label": "1",
+      "left_figure": "front",
+      "left_page": 19,
+      "left_bbox": [
+        453,
+        424,
+        495,
+        466
+      ],
+      "left_figure_bbox": [
+        280,
+        285,
+        745,
+        879
+      ],
+      "right_entity": "usb_c_power",
+      "right_label": "power connector",
+      "right_figure": "left",
+      "right_page": 21,
+      "right_bbox": [
+        306,
+        410,
+        371,
+        451
+      ],
+      "right_figure_bbox": [
+        270,
+        370,
+        730,
+        473
+      ],
+      "text": 0.5370419025421143,
+      "figure": 0.8238683938980103,
+      "crop": 0.7901980876922607,
+      "left_source_context": "1\nThis section introduces hardware features of the computer.\nComputer controls, connectors, and indicators\nThis chapter provides basic information to help you get familiar with your computer.\nChapter 1. Product overview\nFront view",
+      "right_source_context": "power connector\n3 Docking-station connector\n1 USB-C\u2122 connector\nLeft-side view\nsee \u201cUsing the multi-touch screen\u201d on page 18.\nThe multi-touch screen enables you to use your computer with simple touch gestures. For more information,\n4 Fan louvers",
+      "scoped_text": 0.6521492004394531,
+      "scoped_text_figure": 0.7380087971687317,
+      "scoped_text_crop": 0.7211736440658569,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "t480_ug_en",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "infrared_camera",
+      "left_label": "Infrared camera",
+      "left_figure": "front",
+      "left_page": 19,
+      "left_bbox": [
+        453,
+        424,
+        495,
+        466
+      ],
+      "left_figure_bbox": [
+        280,
+        285,
+        745,
+        879
+      ],
+      "right_entity": "thunderbolt",
+      "right_label": "USB-C connector (Thunderbolt 3 compatible)",
+      "right_figure": "left",
+      "right_page": 21,
+      "right_bbox": [
+        363,
+        410,
+        420,
+        451
+      ],
+      "right_figure_bbox": [
+        270,
+        370,
+        730,
+        473
+      ],
+      "text": 0.6398493051528931,
+      "figure": 0.8238683938980103,
+      "crop": 0.7920180559158325,
+      "left_source_context": "Infrared camera\nThis section introduces hardware features of the computer.\nComputer controls, connectors, and indicators\nThis chapter provides basic information to help you get familiar with your computer.\nChapter 1. Product overview\nFront view",
+      "right_source_context": "USB-C connector (Thunderbolt 3 compatible)\n3 Docking-station connector\nsee \u201cUsing the multi-touch screen\u201d on page 18.\n1 USB-C\u2122 connector\nThe multi-touch screen enables you to use your computer with simple touch gestures. For more information,\n2 USB-C connector (Thunderbolt\u2122 3 compatible)\nLeft-side view\n4 Fan louvers",
+      "scoped_text": 0.6071752905845642,
+      "scoped_text_figure": 0.7155218422412872,
+      "scoped_text_crop": 0.6995966732501984,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "t480_ug_en",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "infrared_camera",
+      "left_label": "Infrared camera",
+      "left_figure": "front",
+      "left_page": 19,
+      "left_bbox": [
+        453,
+        424,
+        495,
+        466
+      ],
+      "left_figure_bbox": [
+        280,
+        285,
+        745,
+        879
+      ],
+      "right_entity": "hdmi",
+      "right_label": "3",
+      "right_figure": "right",
+      "right_page": 22,
+      "right_bbox": [
+        480,
+        457,
+        543,
+        493
+      ],
+      "right_figure_bbox": [
+        275,
+        456,
+        785,
+        540
+      ],
+      "text": 0.5842095613479614,
+      "figure": 0.7720299959182739,
+      "crop": 0.7677920460700989,
+      "left_source_context": "Infrared camera\nThis section introduces hardware features of the computer.\nComputer controls, connectors, and indicators\nThis chapter provides basic information to help you get familiar with your computer.\nChapter 1. Product overview\nFront view",
+      "right_source_context": "3\n2 USB 3.1 connector Gen 1\nsee \u201cUsing a media card or a smart card\u201d on page 34.\n4 Always On USB 3.1 connector Gen 1\nmight also use smart cards for strong security authentication of single sign-on (SSO). For more information,\nUse smart cards for authentication, data storage, and application processing. Within large organizations, you\nRight-side view\n1 Audio connector",
+      "scoped_text": 0.5868874788284302,
+      "scoped_text_figure": 0.679458737373352,
+      "scoped_text_crop": 0.6773397624492645,
+      "scoped_text_decision": "none",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "watch_d",
+      "split": "development",
+      "stratum": "same_name_same",
+      "same_region": false,
+      "left_entity": "airbag_buckle",
+      "left_label": "airbag buckle",
+      "left_figure": "buckle",
+      "left_page": 7,
+      "left_bbox": [
+        124,
+        49,
+        254,
+        120
+      ],
+      "left_figure_bbox": [
+        112,
+        46,
+        311,
+        205
+      ],
+      "right_entity": "airbag_buckle",
+      "right_label": "airbag buckle",
+      "right_figure": "opening",
+      "right_page": 7,
+      "right_bbox": [
+        128,
+        299,
+        249,
+        363
+      ],
+      "right_figure_bbox": [
+        112,
+        296,
+        584,
+        487
+      ],
+      "text": 1.0000001192092896,
+      "figure": 0.8651130199432373,
+      "crop": 0.8440289497375488,
+      "left_source_context": "airbag buckle\n7 After adjusting the tightness, fasten the airbag buckle.\nAdjust the strap based on your wrist's circumference.\n1 Open the watch buckle and airbag buckle.\n2 Select the size of the strap based on the measurement, and then fasten the nail buckle.\nGetting Started",
+      "right_source_context": "airbag buckle\n1 Open the watch buckle and airbag buckle.\nAdjust the strap based on your wrist's circumference.\n7 After adjusting the tightness, fasten the airbag buckle.\n2 Select the size of the strap based on the measurement, and then fasten the nail buckle.\n3 Fasten the airbag buckle to finish adjusting the strap.",
+      "scoped_text": 0.9936218857765198,
+      "scoped_text_figure": 0.9293674528598785,
+      "scoped_text_crop": 0.9188254177570343,
+      "scoped_text_decision": "merge",
+      "scoped_text_figure_decision": "merge",
+      "scoped_text_crop_decision": "merge"
+    },
+    {
+      "document": "watch_d",
+      "split": "development",
+      "stratum": "same_name_same",
+      "same_region": false,
+      "left_entity": "watch_strap",
+      "left_label": "strap",
+      "left_figure": "measure",
+      "left_page": 6,
+      "left_bbox": [
+        474,
+        350,
+        601,
+        459
+      ],
+      "left_figure_bbox": [
+        82,
+        326,
+        658,
+        499
+      ],
+      "right_entity": "watch_strap",
+      "right_label": "strap",
+      "right_figure": "replace",
+      "right_page": 6,
+      "right_bbox": [
+        244,
+        700,
+        326,
+        809
+      ],
+      "right_figure_bbox": [
+        104,
+        676,
+        328,
+        813
+      ],
+      "text": 0.9999998807907104,
+      "figure": 0.5239478349685669,
+      "crop": 0.7051864266395569,
+      "left_source_context": "strap\n3 Select the strap and airbag based on the scale value.\n2 Pull the ruler until it touches your arm, but don't pull it too tightly. Record the position\nReplacing the strap and airbag with ones in suitable sizes\n1 Open the strap nail buckle and the upper and lower buckles of the airbag.\nof your palm, put the end of the ruler that comes with the watch through the buckle on\nindicated by the arrow.",
+      "right_source_context": "strap\n5 Align the airbag with the air nozzle and press the airbag cover.\nand fasten it.\n4 Align one side of the strap to be installed with the watch body, push the lever inwards,\n6 Align the end of the strap with the buckle and insert the strap into the buckle.\n3 Push the lever inwards and pull the strap outwards.",
+      "scoped_text": 0.8771497011184692,
+      "scoped_text_figure": 0.7005487680435181,
+      "scoped_text_crop": 0.7911680638790131,
+      "scoped_text_decision": "merge",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "merge"
+    },
+    {
+      "document": "watch_d",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "watch_strap",
+      "left_label": "strap",
+      "left_figure": "replace",
+      "left_page": 6,
+      "left_bbox": [
+        244,
+        700,
+        326,
+        809
+      ],
+      "left_figure_bbox": [
+        104,
+        676,
+        328,
+        813
+      ],
+      "right_entity": "airbag_buckle",
+      "right_label": "airbag buckle",
+      "right_figure": "opening",
+      "right_page": 7,
+      "right_bbox": [
+        128,
+        299,
+        249,
+        363
+      ],
+      "right_figure_bbox": [
+        112,
+        296,
+        584,
+        487
+      ],
+      "text": 0.6891883015632629,
+      "figure": 0.731488823890686,
+      "crop": 0.7084846496582031,
+      "left_source_context": "strap\n5 Align the airbag with the air nozzle and press the airbag cover.\nand fasten it.\n4 Align one side of the strap to be installed with the watch body, push the lever inwards,\n6 Align the end of the strap with the buckle and insert the strap into the buckle.\n3 Push the lever inwards and pull the strap outwards.",
+      "right_source_context": "airbag buckle\n1 Open the watch buckle and airbag buckle.\nAdjust the strap based on your wrist's circumference.\n7 After adjusting the tightness, fasten the airbag buckle.\n2 Select the size of the strap based on the measurement, and then fasten the nail buckle.\n3 Fasten the airbag buckle to finish adjusting the strap.",
+      "scoped_text": 0.8778324127197266,
+      "scoped_text_figure": 0.8046606183052063,
+      "scoped_text_crop": 0.7931585311889648,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "watch_d",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "watch_strap",
+      "left_label": "strap",
+      "left_figure": "replace",
+      "left_page": 6,
+      "left_bbox": [
+        244,
+        700,
+        326,
+        809
+      ],
+      "left_figure_bbox": [
+        104,
+        676,
+        328,
+        813
+      ],
+      "right_entity": "airbag_buckle",
+      "right_label": "airbag buckle",
+      "right_figure": "buckle",
+      "right_page": 7,
+      "right_bbox": [
+        124,
+        49,
+        254,
+        120
+      ],
+      "right_figure_bbox": [
+        112,
+        46,
+        311,
+        205
+      ],
+      "text": 0.6891883015632629,
+      "figure": 0.771681547164917,
+      "crop": 0.7102069854736328,
+      "left_source_context": "strap\n5 Align the airbag with the air nozzle and press the airbag cover.\nand fasten it.\n4 Align one side of the strap to be installed with the watch body, push the lever inwards,\n6 Align the end of the strap with the buckle and insert the strap into the buckle.\n3 Push the lever inwards and pull the strap outwards.",
+      "right_source_context": "airbag buckle\n7 After adjusting the tightness, fasten the airbag buckle.\nAdjust the strap based on your wrist's circumference.\n1 Open the watch buckle and airbag buckle.\n2 Select the size of the strap based on the measurement, and then fasten the nail buckle.\nGetting Started",
+      "scoped_text": 0.8530188798904419,
+      "scoped_text_figure": 0.8123502135276794,
+      "scoped_text_crop": 0.7816129326820374,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "watch_d",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "watch_strap",
+      "left_label": "strap",
+      "left_figure": "measure",
+      "left_page": 6,
+      "left_bbox": [
+        474,
+        350,
+        601,
+        459
+      ],
+      "left_figure_bbox": [
+        82,
+        326,
+        658,
+        499
+      ],
+      "right_entity": "airbag_buckle",
+      "right_label": "airbag buckle",
+      "right_figure": "buckle",
+      "right_page": 7,
+      "right_bbox": [
+        124,
+        49,
+        254,
+        120
+      ],
+      "right_figure_bbox": [
+        112,
+        46,
+        311,
+        205
+      ],
+      "text": 0.6891883015632629,
+      "figure": 0.6483414173126221,
+      "crop": 0.6857593059539795,
+      "left_source_context": "strap\n3 Select the strap and airbag based on the scale value.\n2 Pull the ruler until it touches your arm, but don't pull it too tightly. Record the position\nReplacing the strap and airbag with ones in suitable sizes\n1 Open the strap nail buckle and the upper and lower buckles of the airbag.\nof your palm, put the end of the ruler that comes with the watch through the buckle on\nindicated by the arrow.",
+      "right_source_context": "airbag buckle\n7 After adjusting the tightness, fasten the airbag buckle.\nAdjust the strap based on your wrist's circumference.\n1 Open the watch buckle and airbag buckle.\n2 Select the size of the strap based on the measurement, and then fasten the nail buckle.\nGetting Started",
+      "scoped_text": 0.8817731142044067,
+      "scoped_text_figure": 0.7650572657585144,
+      "scoped_text_crop": 0.7837662100791931,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "watch_d",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "airbag_buckle",
+      "left_label": "airbag buckle",
+      "left_figure": "opening",
+      "left_page": 7,
+      "left_bbox": [
+        128,
+        299,
+        249,
+        363
+      ],
+      "left_figure_bbox": [
+        112,
+        296,
+        584,
+        487
+      ],
+      "right_entity": "watch_buckle",
+      "right_label": "watch buckle",
+      "right_figure": "opening",
+      "right_page": 7,
+      "right_bbox": [
+        412,
+        304,
+        559,
+        388
+      ],
+      "right_figure_bbox": [
+        112,
+        296,
+        584,
+        487
+      ],
+      "text": 0.7788081169128418,
+      "figure": 0.9999999403953552,
+      "crop": 0.8289196491241455,
+      "left_source_context": "airbag buckle\n1 Open the watch buckle and airbag buckle.\nAdjust the strap based on your wrist's circumference.\n7 After adjusting the tightness, fasten the airbag buckle.\n2 Select the size of the strap based on the measurement, and then fasten the nail buckle.\n3 Fasten the airbag buckle to finish adjusting the strap.",
+      "right_source_context": "watch buckle\n1 Open the watch buckle and airbag buckle.\nAdjust the strap based on your wrist's circumference.\n7 After adjusting the tightness, fasten the airbag buckle.\n2 Select the size of the strap based on the measurement, and then fasten the nail buckle.\n3 Fasten the airbag buckle to finish adjusting the strap.",
+      "scoped_text": 0.995989203453064,
+      "scoped_text_figure": 0.9979945719242096,
+      "scoped_text_crop": 0.9124544262886047,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "watch_d",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "watch_strap",
+      "left_label": "strap",
+      "left_figure": "measure",
+      "left_page": 6,
+      "left_bbox": [
+        474,
+        350,
+        601,
+        459
+      ],
+      "left_figure_bbox": [
+        82,
+        326,
+        658,
+        499
+      ],
+      "right_entity": "watch_buckle",
+      "right_label": "watch buckle",
+      "right_figure": "opening",
+      "right_page": 7,
+      "right_bbox": [
+        412,
+        304,
+        559,
+        388
+      ],
+      "right_figure_bbox": [
+        112,
+        296,
+        584,
+        487
+      ],
+      "text": 0.812230110168457,
+      "figure": 0.5773381590843201,
+      "crop": 0.6695743203163147,
+      "left_source_context": "strap\n3 Select the strap and airbag based on the scale value.\n2 Pull the ruler until it touches your arm, but don't pull it too tightly. Record the position\nReplacing the strap and airbag with ones in suitable sizes\n1 Open the strap nail buckle and the upper and lower buckles of the airbag.\nof your palm, put the end of the ruler that comes with the watch through the buckle on\nindicated by the arrow.",
+      "right_source_context": "watch buckle\n1 Open the watch buckle and airbag buckle.\nAdjust the strap based on your wrist's circumference.\n7 After adjusting the tightness, fasten the airbag buckle.\n2 Select the size of the strap based on the measurement, and then fasten the nail buckle.\n3 Fasten the airbag buckle to finish adjusting the strap.",
+      "scoped_text": 0.896104097366333,
+      "scoped_text_figure": 0.7367211282253265,
+      "scoped_text_crop": 0.7828392088413239,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "none",
+      "scoped_text_crop_decision": "alias"
+    },
+    {
+      "document": "watch_d",
+      "split": "development",
+      "stratum": "different_name_different",
+      "same_region": false,
+      "left_entity": "watch_strap",
+      "left_label": "strap",
+      "left_figure": "replace",
+      "left_page": 6,
+      "left_bbox": [
+        244,
+        700,
+        326,
+        809
+      ],
+      "left_figure_bbox": [
+        104,
+        676,
+        328,
+        813
+      ],
+      "right_entity": "watch_buckle",
+      "right_label": "watch buckle",
+      "right_figure": "opening",
+      "right_page": 7,
+      "right_bbox": [
+        412,
+        304,
+        559,
+        388
+      ],
+      "right_figure_bbox": [
+        112,
+        296,
+        584,
+        487
+      ],
+      "text": 0.812230110168457,
+      "figure": 0.731488823890686,
+      "crop": 0.6684958934783936,
+      "left_source_context": "strap\n5 Align the airbag with the air nozzle and press the airbag cover.\nand fasten it.\n4 Align one side of the strap to be installed with the watch body, push the lever inwards,\n6 Align the end of the strap with the buckle and insert the strap into the buckle.\n3 Push the lever inwards and pull the strap outwards.",
+      "right_source_context": "watch buckle\n1 Open the watch buckle and airbag buckle.\nAdjust the strap based on your wrist's circumference.\n7 After adjusting the tightness, fasten the airbag buckle.\n2 Select the size of the strap based on the measurement, and then fasten the nail buckle.\n3 Fasten the airbag buckle to finish adjusting the strap.",
+      "scoped_text": 0.8636434078216553,
+      "scoped_text_figure": 0.7975661158561707,
+      "scoped_text_crop": 0.7660696506500244,
+      "scoped_text_decision": "alias",
+      "scoped_text_figure_decision": "alias",
+      "scoped_text_crop_decision": "alias"
+    }
+  ]
+}

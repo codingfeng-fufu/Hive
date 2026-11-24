@@ -1,0 +1,494 @@
+{
+  "dataset": "mmlongbench-doc-colpali-granularity-heldout",
+  "sample_seed": 20261124,
+  "eligible_documents": 21,
+  "documents": [
+    {
+      "id": "3276a5b991c49cf5f9a4af0f7d6fce67.pdf",
+      "pdf": "upstream/mmlongbench-doc/documents/3276a5b991c49cf5f9a4af0f7d6fce67.pdf",
+      "questions": [
+        {
+          "id": "593",
+          "question": "Which officer verify and signed the complaint?",
+          "answers": [
+            "Special Agent Marc Silski"
+          ],
+          "answer_format": "Str",
+          "doc_type": "Administration/Industry file",
+          "evidence_pages_raw": [
+            16
+          ],
+          "evidence_sources": [
+            "Pure-text (Plain-text)",
+            "Figure"
+          ]
+        },
+        {
+          "id": "595",
+          "question": "what is the CA, Bar no of the report?",
+          "answers": [
+            "239516"
+          ],
+          "answer_format": "Str",
+          "doc_type": "Administration/Industry file",
+          "evidence_pages_raw": [
+            15
+          ],
+          "evidence_sources": [
+            "Pure-text (Plain-text)"
+          ]
+        },
+        {
+          "id": "598",
+          "question": "What is the sum of numbers that are written manually on the page 15 and page 16? Write the answer in the float format.",
+          "answers": [
+            "19"
+          ],
+          "answer_format": "Int",
+          "doc_type": "Administration/Industry file",
+          "evidence_pages_raw": [
+            15,
+            16
+          ],
+          "evidence_sources": [
+            "Generalized-text (Layout)",
+            "Figure"
+          ]
+        },
+        {
+          "id": "599",
+          "question": "What are the colors of this document? List all the colors in the list format and by alphabetical, for example [\"black\", \"white\"]",
+          "answers": [
+            "['black', 'blue', 'white']"
+          ],
+          "answer_format": "List",
+          "doc_type": "Administration/Industry file",
+          "evidence_pages_raw": [],
+          "evidence_sources": [
+            "Generalized-text (Layout)",
+            "Figure"
+          ]
+        },
+        {
+          "id": "600",
+          "question": "How many signatures are appeared on the page 15 and page 16? Write the answer in the float format.",
+          "answers": [
+            "2"
+          ],
+          "answer_format": "Int",
+          "doc_type": "Administration/Industry file",
+          "evidence_pages_raw": [
+            15,
+            16
+          ],
+          "evidence_sources": [
+            "Generalized-text (Layout)",
+            "Figure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0b85477387a9d0cc33fca0f4becaa0e5.pdf",
+      "pdf": "upstream/mmlongbench-doc/documents/0b85477387a9d0cc33fca0f4becaa0e5.pdf",
+      "questions": [
+        {
+          "id": "230",
+          "question": "Who is the commanding officer in the first figure on the second page?",
+          "answers": [
+            "Capt. John W. Sanders"
+          ],
+          "answer_format": "Str",
+          "doc_type": "Administration/Industry file",
+          "evidence_pages_raw": [
+            2
+          ],
+          "evidence_sources": [
+            "Figure",
+            "Pure-text (Plain-text)"
+          ]
+        },
+        {
+          "id": "232",
+          "question": "Who Visited the U.S. Naval Medical Research centre on November 29, 2012 in the document?",
+          "answers": [
+            "Tim Ziemer"
+          ],
+          "answer_format": "Str",
+          "doc_type": "Administration/Industry file",
+          "evidence_pages_raw": [
+            1
+          ],
+          "evidence_sources": [
+            "Pure-text (Plain-text)"
+          ]
+        },
+        {
+          "id": "233",
+          "question": "Who Visited the U.S. Naval Medical Research centre on November 29, 2020?",
+          "answers": [
+            "Not answerable"
+          ],
+          "answer_format": "None",
+          "doc_type": "Administration/Industry file",
+          "evidence_pages_raw": [],
+          "evidence_sources": []
+        },
+        {
+          "id": "235",
+          "question": "Among all the pictures, how many of them contain only one person?",
+          "answers": [
+            "6"
+          ],
+          "answer_format": "Int",
+          "doc_type": "Administration/Industry file",
+          "evidence_pages_raw": [
+            2,
+            4,
+            5,
+            14,
+            15
+          ],
+          "evidence_sources": [
+            "Figure"
+          ]
+        },
+        {
+          "id": "236",
+          "question": "Among all the pictures, in which page the picture contains the most number of people? Give me the page no. as an integer.",
+          "answers": [
+            "9"
+          ],
+          "answer_format": "Int",
+          "doc_type": "Administration/Industry file",
+          "evidence_pages_raw": [
+            9
+          ],
+          "evidence_sources": [
+            "Figure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2023.findings-emnlp.248.pdf",
+      "pdf": "upstream/mmlongbench-doc/documents/2023.findings-emnlp.248.pdf",
+      "questions": [
+        {
+          "id": "626",
+          "question": "For the dataset that uses Prover9 as the symbolic solver, how many examples in this dataset are used for evaluation?",
+          "answers": [
+            "204"
+          ],
+          "answer_format": "Int",
+          "doc_type": "Academic paper",
+          "evidence_pages_raw": [
+            5,
+            6
+          ],
+          "evidence_sources": [
+            "Pure-text (Plain-text)",
+            "Table"
+          ]
+        },
+        {
+          "id": "627",
+          "question": "For the dataset that uses HOVER as the symbolic solver, how many examples in this dataset are used for evaluation?",
+          "answers": [
+            "Not answerable"
+          ],
+          "answer_format": "None",
+          "doc_type": "Academic paper",
+          "evidence_pages_raw": [],
+          "evidence_sources": []
+        },
+        {
+          "id": "629",
+          "question": "For all the examples given in Figure 7 and Figure 8, how many of them Logic-LM predicted the correct answer?",
+          "answers": [
+            "Not answerable"
+          ],
+          "answer_format": "None",
+          "doc_type": "Academic paper",
+          "evidence_pages_raw": [],
+          "evidence_sources": []
+        },
+        {
+          "id": "630",
+          "question": "How many prompt examples are given in the Appendix? ",
+          "answers": [
+            "15"
+          ],
+          "answer_format": "Int",
+          "doc_type": "Academic paper",
+          "evidence_pages_raw": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "evidence_sources": [
+            "Figure"
+          ]
+        },
+        {
+          "id": "631",
+          "question": "When using GPT-4 as the base language model, how many datasets does Logic-LM (without self-refinement) outperform the two baseline models in? ",
+          "answers": [
+            "4"
+          ],
+          "answer_format": "Int",
+          "doc_type": "Academic paper",
+          "evidence_pages_raw": [
+            7
+          ],
+          "evidence_sources": [
+            "Table"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2312.10997v5.pdf",
+      "pdf": "upstream/mmlongbench-doc/documents/2312.10997v5.pdf",
+      "questions": [
+        {
+          "id": "76",
+          "question": "In the figure that has a tree shape, what is the name of the branch that has the least leafs?",
+          "answers": [
+            "Pre-training"
+          ],
+          "answer_format": "Str",
+          "doc_type": "Academic paper",
+          "evidence_pages_raw": [
+            2
+          ],
+          "evidence_sources": [
+            "Chart",
+            "Generalized-text (Layout)"
+          ]
+        },
+        {
+          "id": "77",
+          "question": "In figure 3, how many distinct icons are used?",
+          "answers": [
+            "9"
+          ],
+          "answer_format": "Int",
+          "doc_type": "Academic paper",
+          "evidence_pages_raw": [
+            4
+          ],
+          "evidence_sources": [
+            "Figure"
+          ]
+        },
+        {
+          "id": "79",
+          "question": "What is the paper that proposes the method that has a retrieval granularity of phrase and augmentation stage of tuning?",
+          "answers": [
+            "Not answerable"
+          ],
+          "answer_format": "None",
+          "doc_type": "Academic paper",
+          "evidence_pages_raw": [],
+          "evidence_sources": []
+        },
+        {
+          "id": "80",
+          "question": "According to table II, which are the datasets that has exactly three methods?",
+          "answers": [
+            "['POPQA', 'MS MARCO', 'SST-2']"
+          ],
+          "answer_format": "List",
+          "doc_type": "Academic paper",
+          "evidence_pages_raw": [
+            13
+          ],
+          "evidence_sources": [
+            "Table"
+          ]
+        },
+        {
+          "id": "82",
+          "question": "Which method integrates knowledge into white-box models via directive fine-tuning?",
+          "answers": [
+            "PKG"
+          ],
+          "answer_format": "Str",
+          "doc_type": "Academic paper",
+          "evidence_pages_raw": [
+            9,
+            10
+          ],
+          "evidence_sources": [
+            "Pure-text (Plain-text)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e79deb02a0c0e87511080836c5d4347b.pdf",
+      "pdf": "upstream/mmlongbench-doc/documents/e79deb02a0c0e87511080836c5d4347b.pdf",
+      "questions": [
+        {
+          "id": "386",
+          "question": "WHAT IS THE 2nd OBJECTIVE OF REGULATORY EFFICIENCY?",
+          "answers": [
+            "By December 31,2018, reduce the average time to issue a facility license from 60 days (2015) to 45 days"
+          ],
+          "answer_format": "Str",
+          "doc_type": "Administration/Industry file",
+          "evidence_pages_raw": [
+            5
+          ],
+          "evidence_sources": [
+            "Generalized-text (Layout)"
+          ]
+        },
+        {
+          "id": "390",
+          "question": "How many cats are there in the images on page 1?",
+          "answers": [
+            "0"
+          ],
+          "answer_format": "Int",
+          "doc_type": "Administration/Industry file",
+          "evidence_pages_raw": [
+            4
+          ],
+          "evidence_sources": [
+            "Figure"
+          ]
+        },
+        {
+          "id": "391",
+          "question": "What is the title of the diagram on page 9?",
+          "answers": [
+            "Leadership, Workforce and Infrastructure"
+          ],
+          "answer_format": "Str",
+          "doc_type": "Administration/Industry file",
+          "evidence_pages_raw": [
+            12
+          ],
+          "evidence_sources": [
+            "Chart"
+          ]
+        },
+        {
+          "id": "396",
+          "question": "How many strengths and weaknesses are metioned in Appendix C? Represent these two numbers as format of list.",
+          "answers": [
+            "['23', '21']"
+          ],
+          "answer_format": "List",
+          "doc_type": "Administration/Industry file",
+          "evidence_pages_raw": [
+            13,
+            14
+          ],
+          "evidence_sources": [
+            "Table"
+          ]
+        },
+        {
+          "id": "399",
+          "question": "How many people are there in total in the MQA Executive Leadership and the Prosecution Services Staff?",
+          "answers": [
+            "7"
+          ],
+          "answer_format": "Int",
+          "doc_type": "Administration/Industry file",
+          "evidence_pages_raw": [
+            7,
+            9
+          ],
+          "evidence_sources": [
+            "Pure-text (Plain-text)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "edb88a99670417f64a6b719646aed326.pdf",
+      "pdf": "upstream/mmlongbench-doc/documents/edb88a99670417f64a6b719646aed326.pdf",
+      "questions": [
+        {
+          "id": "144",
+          "question": "Where is the complainant from? Your answer should be formatted as \"[City], [State]\"",
+          "answers": [
+            "Las Vegas, Nevada"
+          ],
+          "answer_format": "Str",
+          "doc_type": "Administration/Industry file",
+          "evidence_pages_raw": [
+            0
+          ],
+          "evidence_sources": [
+            "Table"
+          ]
+        },
+        {
+          "id": "145",
+          "question": "is there blue color handwritten words in page 30?",
+          "answers": [
+            "Not answerable"
+          ],
+          "answer_format": "None",
+          "doc_type": "Administration/Industry file",
+          "evidence_pages_raw": [],
+          "evidence_sources": [
+            "Pure-text (Plain-text)"
+          ]
+        },
+        {
+          "id": "146",
+          "question": "When the complainant applied for return? Format your answer as YYYY-MM-DD.",
+          "answers": [
+            "2014-10-06"
+          ],
+          "answer_format": "Str",
+          "doc_type": "Administration/Industry file",
+          "evidence_pages_raw": [
+            15
+          ],
+          "evidence_sources": [
+            "Pure-text (Plain-text)"
+          ]
+        },
+        {
+          "id": "147",
+          "question": "How many \"Redacted\" signals in Page 0286 in all?",
+          "answers": [
+            "8"
+          ],
+          "answer_format": "Int",
+          "doc_type": "Administration/Industry file",
+          "evidence_pages_raw": [
+            17
+          ],
+          "evidence_sources": [
+            "Figure"
+          ]
+        },
+        {
+          "id": "148",
+          "question": "What is the zip code of the address to which the attached consumer complaint form send?",
+          "answers": [
+            "89706"
+          ],
+          "answer_format": "Str",
+          "doc_type": "Administration/Industry file",
+          "evidence_pages_raw": [
+            5
+          ],
+          "evidence_sources": [
+            "Table"
+          ]
+        }
+      ]
+    }
+  ]
+}

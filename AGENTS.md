@@ -1,0 +1,5 @@
+# HiVG-RAG
+
+The submission target is IEEE ICME. Use the CCFA-Skills workflow for research work in this project. Apply `ccf-humanization` and `ccf-common` first, then use the CCFA skill that owns the requested deliverable. Use `ccf-pipeline-orchestrator` to coordinate research stages and `ccf-experiment-designer` to define comparisons and interpret results. Verify submission requirements against the official IEEE ICME call for the selected year and track when preparing the submission.
+
+The next research question is whether VGER reduces false merges between same-name entities and recovers links between differently named occurrences of the same entity. Use annotated pairs from real documents and compare text-only resolution, full-figure visual evidence, and localized entity crops on the same pairs. Measure false merges and alias precision and recall. The existing vLLM chart run validates the answer pipeline on one question. Its graph has zero grounded entity mentions, so it provides no direct evidence for VGER.

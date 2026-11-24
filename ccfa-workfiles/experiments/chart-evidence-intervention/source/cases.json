@@ -1,0 +1,46 @@
+[
+  {
+    "anchor": "353", "reference_size": [978, 1265], "page": 19,
+    "figure": [501, 233, 862, 415],
+    "swap": [[505, 273, 558, 303], [505, 378, 558, 408]],
+    "label_names": ["U.S.", "China"],
+    "questions": [
+      ["In the upper chart, what percentage expect the U.S. to have less influence after the outbreak?", "29", "50"],
+      ["In the upper chart, what percentage expect China to have less influence after the outbreak?", "50", "29"],
+      ["In the upper chart, what percentage expect the EU to have less influence after the outbreak?", "21", "21"]
+    ]
+  },
+  {
+    "anchor": "924", "reference_size": [978, 1265], "page": 9,
+    "figure": [105, 307, 874, 508],
+    "swap": [[214, 343, 421, 401], [655, 343, 862, 401]],
+    "label_names": ["photo ID", "automatic registration"],
+    "questions": [
+      ["What percentage of Rep/Lean Rep strongly favor requiring government-issued photo identification to vote in the chart?", "81", "14"],
+      ["What percentage of Rep/Lean Rep strongly favor automatically registering all eligible citizens to vote in the chart?", "14", "81"],
+      ["What percentage of Rep/Lean Rep strongly favor removing people who have not recently voted or confirmed registration in the chart?", "37", "37"]
+    ]
+  },
+  {
+    "anchor": "497", "reference_size": [978, 1265], "page": 5,
+    "figure": [365, 417, 873, 629],
+    "swap": [[367, 454, 487, 492], [367, 581, 487, 619]],
+    "label_names": ["Foreign born", "Fourth or higher generation"],
+    "questions": [
+      ["In the chart, what percentage of the foreign-born group self-identify as Non-Hispanic?", "3", "50"],
+      ["In the chart, what percentage of the fourth-or-higher-generation group self-identify as Non-Hispanic?", "50", "3"],
+      ["In the chart, what percentage of the second generation self-identify as Non-Hispanic?", "8", "8"]
+    ]
+  },
+  {
+    "anchor": "257", "reference_size": [1227, 920], "page": 9,
+    "figure": [78, 126, 1153, 666],
+    "swap": [[307, 631, 399, 664], [481, 631, 573, 664]],
+    "label_names": ["XL", "Indosat"],
+    "questions": [
+      ["According to the blue subscriber series, how many million subscribers does XL have?", "68.5", "59.7"],
+      ["According to the blue subscriber series, how many million subscribers does Indosat have?", "59.7", "68.5"],
+      ["According to the blue subscriber series, how many million subscribers does Telkomsel have?", "132.7", "132.7"]
+    ]
+  }
+]

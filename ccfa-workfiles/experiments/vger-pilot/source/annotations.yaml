@@ -1,0 +1,172 @@
+# PDF physical pages are one-based. Boxes use the PDF page's top-left 0–1000 grid.
+# Each figure entry is [page, figure bbox, source context].
+# Each region entry is [figure ID, crop bbox, entity ID, source references].
+documents:
+  t480_ug_en:
+    split: development
+    figures:
+      front: [19, [280, 285, 745, 879], Front view]
+      left: [21, [270, 370, 730, 473], Left-side view]
+      right: [22, [275, 456, 785, 540], Right-side view]
+      bottom: [24, [275, 105, 815, 408], Bottom view]
+    regions:
+      - [front, [453, 424, 495, 466], infrared_camera, ['1', Infrared camera]]
+      - [left, [306, 410, 371, 451], usb_c_power, ['1', USB-C connector, power connector]]
+      - [left, [363, 410, 420, 451], thunderbolt, ['2', USB-C connector (Thunderbolt 3 compatible)]]
+      - [left, [472, 407, 624, 451], vents_left, ['4', Fan louvers]]
+      - [right, [400, 458, 445, 493], audio, ['1', Audio connector]]
+      - [right, [480, 457, 543, 493], hdmi, ['3', HDMI connector]]
+      - [bottom, [613, 205, 774, 305], vents_bottom, ['4', Fan louvers]]
+      - [bottom, [358, 139, 649, 215], battery, ['1', Removable battery]]
+  stereo_headset:
+    split: development
+    figures:
+      hero: [1, [324, 146, 661, 482], WH-1000XM4]
+      case: [10, [99, 203, 721, 337], Setting the headset in the carrying case]
+      controls: [11, [68, 167, 620, 736], Location and function of parts]
+    regions:
+      - [hero, [391, 151, 642, 347], headband, [headband]]
+      - [controls, [120, 188, 324, 298], headband, ['7', Headband]]
+      - [case, [115, 215, 204, 276], headband, [headband]]
+      - [controls, [104, 301, 218, 391], left_unit, ['5', Left unit]]
+      - [controls, [424, 268, 573, 391], touch, ['12', Touch sensor control panel]]
+  watch_d:
+    split: development
+    figures:
+      measure: [6, [82, 326, 658, 499], Measuring your wrist circumference]
+      replace: [6, [104, 676, 328, 813], Replacing the strap and airbag]
+      buckle: [7, [112, 46, 311, 205], Fasten the airbag buckle]
+      opening: [7, [112, 296, 584, 487], Open the watch buckle and airbag buckle]
+    regions:
+      - [measure, [474, 350, 601, 459], watch_strap, [strap]]
+      - [replace, [244, 700, 326, 809], watch_strap, [strap]]
+      - [buckle, [124, 49, 254, 120], airbag_buckle, [airbag buckle]]
+      - [opening, [128, 299, 249, 363], airbag_buckle, [airbag buckle]]
+      - [opening, [412, 304, 559, 388], watch_buckle, [watch buckle]]
+  nova_y70:
+    split: heldout
+    figures:
+      navigation: [3, [80, 312, 893, 829], System Navigation Gestures]
+      switching: [4, [80, 74, 890, 333], Switch between apps]
+      knuckle: [4, [80, 588, 890, 900], Knuckle Gestures]
+    regions:
+      - [navigation, [96, 481, 234, 598], home_gesture, [Back to home screen, go to the home screen]]
+      - [navigation, [94, 604, 228, 715], recent_gesture, [Recent tasks, view recent tasks]]
+      - [switching, [90, 80, 225, 205], switch_gesture, [Switch between apps, Slide across bottom to switch apps]]
+      - [switching, [89, 205, 225, 330], switch_gesture, [Switch between apps]]
+      - [knuckle, [90, 692, 239, 798], scrollshot, [Take a scrollshot, scrolling screenshot]]
+  2021-Apple-Catalog:
+    split: development
+    figures:
+      phones_6: [6, [45, 266, 963, 649], iPhone & iPad Solutions]
+      phones_7: [7, [45, 266, 963, 649], iPhone & iPad Solutions]
+      standard: [18, [64, 299, 960, 851], iPad Pro + Keyboards Standard Solution]
+      secured: [19, [54, 313, 955, 895], iPad Pro + Keyboards High Security Solution]
+      digital: [16, [80, 261, 944, 696], iPad Digital Display]
+    regions:
+      - [phones_6, [69, 282, 445, 609], iphone_display, [iPhone]]
+      - [phones_7, [69, 282, 445, 609], iphone_display, [iPhone]]
+      - [standard, [109, 637, 365, 832], pencil, ['2', Apple Pencil]]
+      - [standard, [495, 310, 890, 545], standard_cable, ['1', single cable]]
+      - [secured, [69, 325, 489, 575], threaded_connection, ['1', Threaded connection]]
+      - [secured, [74, 458, 483, 566], secure_keyboard, ['2', Magic and Smart Folio keyboards]]
+      - [digital, [449, 405, 667, 533], wedge_pedestal, ['2', Wedge display pedestal]]
+  obs-productdesc-en:
+    split: heldout
+    figures:
+      reliable_a: [12, [268, 116, 910, 531], Figure 2-1 Five-level reliability architecture of OBS]
+      reliable_b: [37, [269, 116, 910, 535], Figure 5-3 Five-level reliability architecture of OBS]
+      concurrent: [13, [289, 130, 924, 407], Figure 2-2 Access to numerous objects at high-level concurrency]
+      logging: [36, [246, 116, 932, 465], Figure 5-2 CTS]
+    regions:
+      - [reliable_a, [486, 159, 714, 513], reliability_pyramid, [Five-level reliability architecture, Figure 2-1]]
+      - [reliable_b, [486, 159, 714, 524], reliability_pyramid, [Five-level reliability architecture, Figure 5-3]]
+      - [concurrent, [500, 132, 645, 231], obs_service, [OBS, OBS 3.0]]
+      - [logging, [257, 268, 438, 417], obs_service, [OBS]]
+      - [logging, [730, 268, 928, 417], cts_service, [CTS, Cloud Trace Service]]
+  camry_ebrochure:
+    split: heldout
+    figures:
+      upper: [2, [505, 183, 933, 431], SE Hybrid Nightshade shown in Reservoir Blue]
+      lower: [2, [69, 460, 935, 830], SE Hybrid Nightshade shown in Reservoir Blue]
+      exterior: [5, [0, 270, 999, 595], Camry styling]
+      details: [5, [0, 595, 999, 758], Design detail photos]
+    regions:
+      - [upper, [536, 258, 903, 389], nightshade, [SE Hybrid Nightshade, SE Hybrid Nightshade shown in Reservoir Blue]]
+      - [lower, [281, 517, 794, 759], nightshade, [SE Hybrid Nightshade, SE Hybrid Nightshade shown in Reservoir Blue]]
+      - [details, [25, 617, 295, 740], nightshade, [Camry SE Nightshade]]
+      - [exterior, [28, 427, 440, 562], exterior_left, [Camry]]
+      - [exterior, [468, 369, 954, 588], exterior_right, [Camry]]
+  91521110100M_4K_UHD_Display_User_Manual_V1.1:
+    split: development
+    figures:
+      kit: [4, [85, 264, 906, 813], What is included]
+      ports: [5, [156, 622, 849, 842], Connecting Cables]
+      ground: [6, [104, 350, 350, 416], Ground Pin]
+    regions:
+      - [kit, [155, 289, 305, 407], display, [4K Display]]
+      - [kit, [392, 285, 481, 417], remote, [Remote Control]]
+      - [kit, [516, 486, 686, 601], vga_cable, [VGA Cable]]
+      - [ports, [456, 703, 500, 756], vga_input, ['6', VGA In]]
+      - [ports, [522, 695, 556, 757], hdmi_input, ['7', HDMI 2.0]]
+      - [ground, [128, 359, 181, 410], ground_pin, [Ground Pin]]
+  User_Manual_1500S_Classic_EN:
+    split: development
+    figures:
+      machine: [14, [87, 166, 925, 691], Parts of the coffee machine]
+      display: [14, [176, 693, 673, 964], Ready to operate display]
+      switch: [19, [686, 113, 912, 366], Switch on coffee machine]
+      beverages: [21, [696, 119, 914, 254], Beverage dispensing]
+    regions:
+      - [machine, [218, 207, 525, 344], hopper, ['1', Bean hopper]]
+      - [machine, [187, 331, 402, 475], touchscreen, ['4', Touch display]]
+      - [machine, [533, 536, 848, 683], switch, ['13', ON/OFF switch]]
+      - [switch, [700, 228, 905, 357], switch, [ON/OFF switch]]
+      - [display, [236, 722, 567, 893], buttons, ['14', Beverage buttons]]
+      - [beverages, [707, 122, 905, 235], buttons, [Beverage buttons]]
+  Macbook_air:
+    split: heldout
+    figures:
+      introduction: [2, [110, 74, 916, 697], Built-in iSight camera]
+      kit: [9, [86, 226, 868, 558], What’s in the Box]
+      connection: [10, [87, 560, 913, 876], Plug in the 45W MagSafe Power Adapter]
+      features: [26, [106, 129, 907, 725], Basic Features of Your MacBook Air]
+      ports: [30, [92, 203, 887, 816], Ports on Your MacBook Air]
+    regions:
+      - [introduction, [435, 75, 572, 182], camera, [Built-in iSight camera]]
+      - [features, [634, 137, 721, 178], camera, [iSight camera]]
+      - [kit, [152, 362, 420, 523], power_adapter, [45W MagSafe Power Adapter]]
+      - [connection, [95, 609, 333, 771], power_adapter, [45W MagSafe Power Adapter, power adapter]]
+      - [connection, [307, 712, 427, 786], magsafe_port, [MagSafe power port]]
+      - [ports, [144, 526, 316, 592], magsafe_port, [MagSafe power port]]
+  2405.09818v1:
+    split: heldout
+    figures:
+      fig1: [2, [92, 87, 900, 445], Figure 1 Chameleon]
+      fig2: [6, [91, 83, 907, 325], Figure 5 Output norm and training loss curves]
+      fig3: [7, [91, 83, 907, 325], Figure 6 Training loss curves]
+      fig5: [10, [47, 61, 930, 814], Figure 7 Example alignment data]
+    regions:
+      - [fig1, [114, 91, 487, 419], pretraining, ['(a)', Mixed-Modal Pre-Training]]
+      - [fig1, [492, 90, 879, 431], generation, ['(b)', Mixed-Modal Generation]]
+      - [fig2, [117, 84, 372, 240], instability, ['(a)', Uncontrolled growth of output]]
+      - [fig2, [381, 84, 635, 240], ablation_1, ['(b)', An ablation with Chameleon-7B]]
+      - [fig2, [650, 84, 905, 240], ablation_2, ['(c)', An ablation with Chameleon-7B]]
+      - [fig3, [116, 84, 371, 240], loss_600k, ['(a)', Training Curves for 600k steps]]
+      - [fig3, [384, 84, 634, 240], image_loss, ['(b)', Training loss curve with image generation]]
+      - [fig5, [49, 63, 444, 385], text_demo, ['(a)', Text]]
+  2305.13186v3:
+    split: heldout
+    figures:
+      extraction: [15, [115, 102, 883, 458], Figure 5 The user interface for the claim extraction task]
+      nei: [15, [115, 506, 883, 901], Figure 6 The user interface for the NEI claim verification task]
+      refuted: [16, [115, 100, 883, 473], Figure 7 The user interface for the refuted claim verification task]
+      cases9: [22, [170, 106, 813, 890], Figure 9 The refuted claims cases A to C]
+      cases10: [23, [170, 262, 813, 693], Figure 10 The refuted claims cases D and E]
+    regions:
+      - [extraction, [145, 113, 857, 395], claim_ui, [Figure 5, claim extraction task]]
+      - [nei, [145, 520, 857, 845], nei_ui, [Figure 6, NEI claim verification task]]
+      - [refuted, [145, 113, 857, 404], refuted_ui, [Figure 7, refuted claim verification task]]
+      - [cases9, [181, 121, 804, 319], a_case, [Case A, calculation result is wrong]]
+      - [cases9, [180, 401, 804, 619], b_case, [Case B]]
+      - [cases10, [182, 269, 805, 464], d_case, [Case D, values in the claim do not match]]

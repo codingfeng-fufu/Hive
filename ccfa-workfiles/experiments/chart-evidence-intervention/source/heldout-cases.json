@@ -1,0 +1,22 @@
+[
+  {"anchor":"118","reference_size":[978,1265],"page":15,"figure":[497,650,873,908],
+   "swap":[[506,806,548,836],[506,861,548,891]],"label_names":["West","East"],
+   "questions":[["In the chart about the former East and West Germany, what percentage in the West prioritizes the relationship with Russia?", "21","38"],
+                ["In the chart about the former East and West Germany, what percentage in the East prioritizes the relationship with Russia?", "38","21"],
+                ["In the chart about younger Americans, what percentage of ages 30 to 49 favors a closer relationship with China?", "46","46"]]},
+  {"anchor":"819","reference_size":[978,1265],"page":9,"figure":[501,430,871,766],
+   "swap":[[530,658,577,683],[530,729,577,754]],"label_names":["18-29","50+"],
+   "questions":[["In the chart on algorithmic decision-making, what percentage for the 18–29 age group says computer programs always reflect the bias of designers?", "48","63"],
+                ["In the chart on algorithmic decision-making, what percentage for the 50+ age group says computer programs always reflect the bias of designers?", "63","48"],
+                ["In the chart on algorithmic decision-making, what percentage for the 30–49 age group says computer programs always reflect the bias of designers?", "56","56"]]},
+  {"anchor":"926","reference_size":[978,1265],"page":11,"figure":[494,192,875,546],
+   "swap":[[501,487,610,514],[501,514,610,541]],"label_names":["Rep/Lean Rep","Dem/Lean Dem"],
+   "questions":[["In the chart on China's coronavirus response, what percentage of Rep/Lean Rep rate China's job as good?", "15","42"],
+                ["In the chart on China's coronavirus response, what percentage of Dem/Lean Dem rate China's job as good?", "42","15"],
+                ["In the chart on China's coronavirus response, what percentage of ages 30 to 49 rate China's job as good?", "35","35"]]},
+  {"anchor":"174","reference_size":[1227,920],"page":11,"figure":[65,186,1181,844],
+   "swap":[[483,803,537,825],[766,803,820,825]],"label_names":["Oman","Libya"],
+   "questions":[["In the 2014 values and beliefs chart, what percentage in Oman say traditional values mean a lot to them?", "60","49"],
+                ["In the 2014 values and beliefs chart, what percentage in Libya say traditional values mean a lot to them?", "49","60"],
+                ["In the 2014 values and beliefs chart, what percentage in Bahrain say traditional values mean a lot to them?", "50","50"]]}
+]

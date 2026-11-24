@@ -1,0 +1,29 @@
+# Physical PDF page numbers are one-based. BBoxes use top-left normalized 0–1000 coordinates.
+documents:
+  owners-manual-2170416:
+    page: 28
+    figures:
+      figure-2: [388, 193, 593, 407]
+      figure-3: [620, 264, 825, 482]
+      removal-step-3: [389, 410, 593, 478]
+      removal-step-5: [389, 519, 593, 624]
+    occurrences:
+      figure-2-hinge: [figure-2, [439, 287, 539, 324], top hinge, freezer-top-hinge]
+      step-3-hinge: [removal-step-3, [468, 426, 522, 439], top hinge, freezer-top-hinge]
+      step-5-hinge: [removal-step-5, [483, 574, 533, 587], top hinge, refrigerator-top-hinge]
+      figure-2-plug: [figure-2, [455, 270, 478, 295], electrical plug, freezer-plug]
+      figure-3-plug: [figure-3, [680, 362, 724, 391], freezer door electrical plug, freezer-plug]
+      figure-2-cover: [figure-2, [436, 211, 548, 275], hinge cover, freezer-hinge-cover]
+    pairs:
+      - left: figure-2-hinge
+        right: step-3-hinge
+        evidence: Figure 2 is captioned FREEZER DOOR TOP HINGE. Removal step 3 says to lift the freezer door after removing the top hinge.
+      - left: figure-2-hinge
+        right: step-5-hinge
+        evidence: In removal step 5 the procedure switches to the refrigerator door. This top hinge and the freezer hinge in Figure 2 belong to different doors.
+      - left: figure-2-plug
+        right: figure-3-plug
+        evidence: The Figure 2 leader identifies the plug disconnected in removal step 2. Reinstallation step 2 reconnects the wires and refers to Figure 3, whose caption and leader identify the freezer door plug.
+      - left: figure-2-cover
+        right: figure-3-plug
+        evidence: Figure 2 gives the cover and electrical plug separate leaders. Figure 3 depicts the same assembly and directs reconnection at the plug.

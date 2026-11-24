@@ -1,0 +1,478 @@
+{
+  "dataset": "mmlongbench-doc-scope-probe",
+  "documents": [
+    {
+      "id": "ddoseattle-150627210357-lva1-app6891_95.pdf",
+      "pdf": "upstream/mmlongbench-doc/documents/ddoseattle-150627210357-lva1-app6891_95.pdf",
+      "questions": [
+        {
+          "id": "0",
+          "question": "What number is shown on the order for the dining set in the final Context is King diagram?",
+          "evidence_pages_raw": [
+            34
+          ],
+          "target_bbox": [
+            430,
+            365,
+            569,
+            513
+          ],
+          "distractors": []
+        },
+        {
+          "id": "1",
+          "question": "In the complete Context is King diagram, what agency appears above Belinda Smith?",
+          "evidence_pages_raw": [
+            34
+          ],
+          "target_bbox": [
+            430,
+            131,
+            566,
+            212
+          ],
+          "distractors": []
+        }
+      ]
+    },
+    {
+      "id": "reportq32015-151009093138-lva1-app6891_95.pdf",
+      "pdf": "upstream/mmlongbench-doc/documents/reportq32015-151009093138-lva1-app6891_95.pdf",
+      "questions": [
+        {
+          "id": "0",
+          "question": "In the Vietnam iOS chart, what percentage of devices ran iOS 8 in Q3/2015?",
+          "evidence_pages_raw": [
+            15
+          ],
+          "target_bbox": [
+            529,
+            324,
+            936,
+            741
+          ],
+          "distractors": [
+            [
+              16,
+              [
+                531,
+                455,
+                943,
+                741
+              ]
+            ]
+          ]
+        },
+        {
+          "id": "1",
+          "question": "In the Vietnam Android chart, what percentage ran Lollipop in Q3/2015?",
+          "evidence_pages_raw": [
+            16
+          ],
+          "target_bbox": [
+            531,
+            455,
+            943,
+            741
+          ],
+          "distractors": [
+            [
+              15,
+              [
+                529,
+                324,
+                936,
+                741
+              ]
+            ]
+          ]
+        },
+        {
+          "id": "2",
+          "question": "In the Vietnam Android chart, what was the Q2/2015 share for Jelly Bean?",
+          "evidence_pages_raw": [
+            16
+          ],
+          "target_bbox": [
+            485,
+            339,
+            894,
+            741
+          ],
+          "distractors": [
+            [
+              15,
+              [
+                485,
+                525,
+                784,
+                741
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2310.05634v2.pdf",
+      "pdf": "upstream/mmlongbench-doc/documents/2310.05634v2.pdf",
+      "questions": [
+        {
+          "id": "0",
+          "question": "In Figure 2, what citations are attached to Sentence2 in Model Output?",
+          "evidence_pages_raw": [
+            5
+          ],
+          "target_bbox": [
+            117,
+            81,
+            326,
+            153
+          ],
+          "distractors": [
+            [
+              5,
+              [
+                512,
+                81,
+                722,
+                153
+              ]
+            ]
+          ]
+        },
+        {
+          "id": "1",
+          "question": "In Figure 3, which sentence in Model Output contains both k3 and k6?",
+          "evidence_pages_raw": [
+            5
+          ],
+          "target_bbox": [
+            512,
+            81,
+            722,
+            153
+          ],
+          "distractors": [
+            [
+              5,
+              [
+                117,
+                81,
+                326,
+                153
+              ]
+            ]
+          ]
+        },
+        {
+          "id": "2",
+          "question": "In the retrieval analysis plot, what direction does precision change as retrieval accuracy drops?",
+          "evidence_pages_raw": [
+            8
+          ],
+          "target_bbox": [
+            535,
+            98,
+            847,
+            279
+          ],
+          "distractors": [
+            [
+              8,
+              [
+                147,
+                98,
+                451,
+                279
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2401.18059v1.pdf",
+      "pdf": "upstream/mmlongbench-doc/documents/2401.18059v1.pdf",
+      "questions": [
+        {
+          "id": "0",
+          "question": "In the tree construction figure, which numbered text chunk appears at the left end of the sequence?",
+          "evidence_pages_raw": [
+            2
+          ],
+          "target_bbox": [
+            482,
+            199,
+            505,
+            220
+          ],
+          "distractors": [
+            [
+              7,
+              [
+                275,
+                209,
+                306,
+                233
+              ]
+            ]
+          ]
+        },
+        {
+          "id": "1",
+          "question": "In the Cinderella querying-process tree, what is the third leaf number from the left?",
+          "evidence_pages_raw": [
+            7
+          ],
+          "target_bbox": [
+            305,
+            209,
+            338,
+            233
+          ],
+          "distractors": [
+            [
+              2,
+              [
+                505,
+                199,
+                528,
+                220
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PG_2021.03.04_US-Views-on-China_FINAL.pdf",
+      "pdf": "upstream/mmlongbench-doc/documents/PG_2021.03.04_US-Views-on-China_FINAL.pdf",
+      "questions": [
+        {
+          "id": "0",
+          "question": "In the overview chart on limiting China's power, what share of Rep/Lean Rep considers it a top priority in 2021?",
+          "evidence_pages_raw": [
+            5
+          ],
+          "target_bbox": [
+            400,
+            357,
+            625,
+            428
+          ],
+          "distractors": [
+            [
+              5,
+              [
+                642,
+                309,
+                885,
+                391
+              ]
+            ],
+            [
+              22,
+              [
+                124,
+                271,
+                305,
+                309
+              ]
+            ]
+          ],
+          "pair": "Republican",
+          "answers": [
+            "63%"
+          ]
+        },
+        {
+          "id": "1",
+          "question": "In the detailed chart on curtailing China's influence, what is the 2021 percentage for Rep/Lean Rep?",
+          "evidence_pages_raw": [
+            15
+          ],
+          "target_bbox": [
+            514,
+            392,
+            884,
+            480
+          ],
+          "distractors": [
+            [
+              5,
+              [
+                642,
+                309,
+                885,
+                391
+              ]
+            ],
+            [
+              22,
+              [
+                124,
+                271,
+                305,
+                309
+              ]
+            ]
+          ]
+        },
+        {
+          "id": "2",
+          "question": "In the overview chart, what percentage of Rep/Lean Rep felt cold toward China in 2021?",
+          "evidence_pages_raw": [
+            5
+          ],
+          "target_bbox": [
+            642,
+            309,
+            885,
+            391
+          ],
+          "distractors": [
+            [
+              5,
+              [
+                400,
+                357,
+                625,
+                428
+              ]
+            ],
+            [
+              15,
+              [
+                514,
+                392,
+                884,
+                480
+              ]
+            ],
+            [
+              22,
+              [
+                124,
+                271,
+                305,
+                309
+              ]
+            ]
+          ],
+          "pair": "Republican",
+          "answers": [
+            "79%"
+          ]
+        },
+        {
+          "id": "3",
+          "question": "In the overview chart, what percentage of Dem/Lean Dem felt cold toward China in 2021?",
+          "evidence_pages_raw": [
+            5
+          ],
+          "target_bbox": [
+            648,
+            363,
+            874,
+            432
+          ],
+          "distractors": [
+            [
+              5,
+              [
+                412,
+                419,
+                622,
+                475
+              ]
+            ],
+            [
+              15,
+              [
+                535,
+                464,
+                858,
+                518
+              ]
+            ]
+          ],
+          "pair": "Democrat",
+          "answers": [
+            "61%"
+          ]
+        },
+        {
+          "id": "4",
+          "question": "In the wider partisan gap figure, what percentage of Rep/Lean Rep called job losses to China very serious in 2021?",
+          "evidence_pages_raw": [
+            22
+          ],
+          "target_bbox": [
+            124,
+            271,
+            305,
+            309
+          ],
+          "distractors": [
+            [
+              5,
+              [
+                400,
+                357,
+                625,
+                428
+              ]
+            ],
+            [
+              5,
+              [
+                642,
+                309,
+                885,
+                391
+              ]
+            ],
+            [
+              15,
+              [
+                514,
+                392,
+                884,
+                480
+              ]
+            ]
+          ]
+        },
+        {
+          "id": "5",
+          "question": "In the overview chart on limiting China's power, what share of Dem/Lean Dem considers it a top priority in 2021?",
+          "evidence_pages_raw": [
+            5
+          ],
+          "target_bbox": [
+            412,
+            419,
+            622,
+            475
+          ],
+          "distractors": [
+            [
+              5,
+              [
+                648,
+                363,
+                874,
+                432
+              ]
+            ]
+          ],
+          "pair": "Democrat",
+          "answers": [
+            "36%"
+          ]
+        }
+      ]
+    }
+  ]
+}

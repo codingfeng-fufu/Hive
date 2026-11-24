@@ -1,0 +1,24 @@
+[
+  {
+    "anchor": "277", "reference_size": [1227, 920], "page": 11,
+    "figure": [118, 225, 766, 845],
+    "swap": [[135, 410, 367, 429], [135, 627, 367, 646]],
+    "label_names": ["Ability to get the data", "Concerns with the data"],
+    "questions": [
+      ["What percentage is plotted for Ability to get the data in the Macro Environment Key Finding 2 chart?", "24", "21"],
+      ["What percentage is plotted for Concerns with the data in the Macro Environment Key Finding 2 chart?", "21", "24"],
+      ["What percentage is plotted for Lack of executive sponsorship in the Macro Environment Key Finding 2 chart?", "22", "22"]
+    ]
+  },
+  {
+    "anchor": "692", "reference_size": [978, 1265], "page": 8,
+    "figure": [365, 274, 876, 727],
+    "swap": [[375, 585, 570, 622], [375, 634, 570, 671]],
+    "label_names": ["Not enough timely testing", "Unclear instructions about how to prevent the spread"],
+    "questions": [
+      ["In the stacked bar chart about why the U.S. coronavirus outbreak continued, what percentage say not enough timely testing is a major reason?", "49", "40"],
+      ["In the stacked bar chart about why the U.S. coronavirus outbreak continued, what percentage say unclear instructions about how to prevent the spread are a major reason?", "40", "49"],
+      ["In the stacked bar chart about why the U.S. coronavirus outbreak continued, what percentage say inadequate response from the federal government is a major reason?", "53", "53"]
+    ]
+  }
+]

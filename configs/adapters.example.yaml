@@ -1,0 +1,14 @@
+mmgraphrag:
+  command:
+    - /path/to/mmgraphrag-env/bin/python
+    - eval/upstream_worker.py
+    - mmgraphrag
+    - /path/to/MMGraphRAG
+  persistent: true
+mg2-rag:
+  command:
+    - /path/to/mg2-rag-env/bin/python
+    - eval/upstream_worker.py
+    - mg2-rag
+    - /path/to/MG2-RAG
+  persistent: true

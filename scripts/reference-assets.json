@@ -1,0 +1,108 @@
+{
+  "dataset": {
+    "repository": "yubo2333/MMLongBench-Doc",
+    "revision": "2ff6aa9237fc777b6627dc57a486e9225ac5fb86",
+    "pdfs": {
+      "2021-Apple-Catalog.pdf": {
+        "bytes": 5284032,
+        "sha256": "6ec3f43d9efb3df34e3ee3f0f72c2a3497892bdaf960fc0e6ce6a507bbc08425"
+      },
+      "2305.13186v3.pdf": {
+        "bytes": 2418832,
+        "sha256": "84d0c4afccf1b776b7a3c752c9f4b18580d199ccdbadc67a27f1fc02e9ea77ac"
+      },
+      "2405.09818v1.pdf": {
+        "bytes": 25242519,
+        "sha256": "60cc0caec7637ebd490e927f861500a9e191582f5babf1686d08ac454201ab6c"
+      },
+      "91521110100M_4K_UHD_Display_User_Manual_V1.1.pdf": {
+        "bytes": 1677202,
+        "sha256": "a3dfbac95e5c99ea9aa9fb830bd5f338d3278c7df28a775bc314acedc22b20d5"
+      },
+      "Macbook_air.pdf": {
+        "bytes": 3871985,
+        "sha256": "d99de99131b4d8a5471d3e3d96befaa1e6152560d12a93f854c5dd95e54225aa"
+      },
+      "User_Manual_1500S_Classic_EN.pdf": {
+        "bytes": 1789965,
+        "sha256": "ba6a07e262b070f963cf1f4ef3372074d08e5820a833f130e67d597af211359c"
+      },
+      "camry_ebrochure.pdf": {
+        "bytes": 3601732,
+        "sha256": "d3f8049bc0c48b735b7c4e0d6399ed9e8188afd332f58829f44e1c39cfb13528"
+      },
+      "honor_watch_gs_pro.pdf": {
+        "bytes": 724735,
+        "sha256": "2d5559e514dc54f616ffea8d8e054117e32da672bdbf9797883dd815fa990ee5"
+      },
+      "nova_y70.pdf": {
+        "bytes": 4112562,
+        "sha256": "1d645b8b4b035ca54e197309d3d0db23e89cfc406066f030db44ee2cd0e536a5"
+      },
+      "obs-productdesc-en.pdf": {
+        "bytes": 1146273,
+        "sha256": "67356c31d3733fc786b769a585ee7a2e8aae4e98b0dc113e8511d45832c099e9"
+      },
+      "owners-manual-2170416.pdf": {
+        "bytes": 1572727,
+        "sha256": "91e70aaf49192b4deb640154a50d0b14976c831be11a7f858f9e953a761b8681"
+      },
+      "stereo_headset.pdf": {
+        "bytes": 2730573,
+        "sha256": "d17cde8229847cb53926e578d70410cf46f9dbfb8a0d62cf675e18c3625507e3"
+      },
+      "t480_ug_en.pdf": {
+        "bytes": 8817249,
+        "sha256": "ee0393dadb951a955032b56dc4ac1a0b34a1ad425814b9f301c1b8f483b5f675"
+      },
+      "watch_d.pdf": {
+        "bytes": 389268,
+        "sha256": "bb5fd3576ac080c867f200ddc90311cdb351fb8240c70c9468dc433936c136e6"
+      }
+    }
+  },
+  "models": {
+    "bge-small-en-v1.5": {
+      "repository": "BAAI/bge-small-en-v1.5",
+      "files": {
+        "config.json": 743,
+        "model.safetensors": 133466304,
+        "special_tokens_map.json": 125,
+        "tokenizer.json": 711396,
+        "tokenizer_config.json": 366,
+        "vocab.txt": 231508
+      }
+    },
+    "siglip-so400m": {
+      "repository": "google/siglip-so400m-patch14-384",
+      "files": {
+        "config.json": 576,
+        "model.safetensors": 3511950624,
+        "preprocessor_config.json": 368,
+        "special_tokens_map.json": 409,
+        "spiece.model": 798330,
+        "tokenizer.json": 2399357,
+        "tokenizer_config.json": 711
+      }
+    },
+    "qwen2.5-vl-7b": {
+      "repository": "Qwen/Qwen2.5-VL-7B-Instruct",
+      "files": {
+        "chat_template.json": 1050,
+        "config.json": 1374,
+        "generation_config.json": 216,
+        "merges.txt": 1671839,
+        "model-00001-of-00005.safetensors": 3900233256,
+        "model-00002-of-00005.safetensors": 3864726320,
+        "model-00003-of-00005.safetensors": 3864726424,
+        "model-00004-of-00005.safetensors": 3864733680,
+        "model-00005-of-00005.safetensors": 1089994880,
+        "model.safetensors.index.json": 57619,
+        "preprocessor_config.json": 350,
+        "tokenizer.json": 7031645,
+        "tokenizer_config.json": 5702,
+        "vocab.json": 2776833
+      }
+    }
+  }
+}

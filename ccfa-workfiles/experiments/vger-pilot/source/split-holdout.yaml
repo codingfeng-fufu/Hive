@@ -1,0 +1,91 @@
+# Physical PDF pages are one-based. Boxes are [x0,y0,x1,y1] on a top-left 0–1000 grid.
+# A chart series is identified by the quantity, population and period it measures.
+# Within a diagram, IDs identify the depicted object or the concrete example input.
+documents:
+  PG_2021.03.04_US-Views-on-China_FINAL:
+    occurrences:
+      priority-left: [5, [400, 357, 625, 428], Rep/Lean Rep, priority-republicans]
+      cold-right: [5, [642, 309, 885, 391], Rep/Lean Rep, cold-republicans]
+      priority-detail: [15, [514, 392, 884, 480], Rep/Lean Rep, priority-republicans]
+      priority-dem-left: [5, [412, 419, 622, 475], Dem/Lean Dem, priority-democrats]
+      cold-dem-right: [5, [648, 363, 874, 432], Dem/Lean Dem, cold-democrats]
+      priority-dem-detail: [15, [535, 464, 858, 518], Dem/Lean Dem, priority-democrats]
+      jobs-right: [22, [124, 271, 305, 309], Rep/Lean Rep, jobs-republicans]
+    pairs:
+      - [priority-left, cold-right]
+      - [priority-detail, cold-right]
+      - [priority-detail, jobs-right]
+      - [priority-dem-left, cold-dem-right]
+      - [priority-left, priority-detail]
+      - [priority-dem-left, priority-dem-detail]
+    queries:
+      - [priority-left, "In the overview chart on limiting China's power, what share of Rep/Lean Rep considers it a top priority in 2021?"]
+      - [priority-detail, "In the detailed chart on curtailing China's influence, what is the 2021 percentage for Rep/Lean Rep?"]
+      - [cold-right, "In the overview chart, what percentage of Rep/Lean Rep felt cold toward China in 2021?"]
+      - [cold-dem-right, "In the overview chart, what percentage of Dem/Lean Dem felt cold toward China in 2021?"]
+      - [jobs-right, "In the wider partisan gap figure, what percentage of Rep/Lean Rep called job losses to China very serious in 2021?"]
+  2310.05634v2:
+    occurrences:
+      output-citation: [5, [117, 81, 326, 153], "Model Output", citation-output]
+      output-na: [5, [512, 81, 722, 153], "Model Output", na-output]
+      citation-s2: [5, [133, 107, 305, 128], Sentence2, citation-s2]
+      na-s2: [5, [529, 111, 704, 133], Sentence2, na-s2]
+      na-example: [5, [528, 153, 865, 274], "[NA] Precision", na-precision-method]
+      na-study: [8, [147, 98, 451, 279], Precision, na-precision-series]
+      retrieval-study: [8, [535, 98, 847, 279], Precision, citation-precision-series]
+    pairs:
+      - [output-citation, output-na]
+      - [citation-s2, na-s2]
+      - [na-study, retrieval-study]
+    queries:
+      - [output-citation, "In Figure 2, what citations are attached to Sentence2 in Model Output?"]
+      - [output-na, "In Figure 3, which sentence in Model Output contains both k3 and k6?"]
+      - [retrieval-study, "In the retrieval analysis plot, what direction does precision change as retrieval accuracy drops?"]
+  reportq32015-151009093138-lva1-app6891_95:
+    occurrences:
+      ios-q2: [15, [485, 525, 784, 741], Q2/2015, ios-q2]
+      android-q2: [16, [485, 339, 894, 741], Q2/2015, android-q2]
+      ios-q3: [15, [529, 324, 936, 741], Q3/2015, ios-q3]
+      android-q3: [16, [531, 455, 943, 741], Q3/2015, android-q3]
+      logo-global: [6, [9, 914, 111, 984], Appota, appota-logo]
+      logo-vietnam: [16, [9, 914, 111, 984], Appota, appota-logo]
+      logo-ads: [23, [9, 914, 111, 984], Appota, appota-logo]
+    pairs:
+      - [ios-q2, android-q2]
+      - [ios-q3, android-q3]
+      - [logo-global, logo-vietnam]
+      - [logo-vietnam, logo-ads]
+    queries:
+      - [ios-q3, "In the Vietnam iOS chart, what percentage of devices ran iOS 8 in Q3/2015?"]
+      - [android-q3, "In the Vietnam Android chart, what percentage ran Lollipop in Q3/2015?"]
+      - [android-q2, "In the Vietnam Android chart, what was the Q2/2015 share for Jelly Bean?"]
+  ddoseattle-150627210357-lva1-app6891_95:
+    occurrences:
+      belinda-initial: [27, [431, 282, 559, 363], Belinda Smith, belinda]
+      belinda-final: [34, [431, 282, 559, 363], Belinda Smith, belinda]
+      order-initial: [27, [430, 365, 569, 513], "Order #16478645", belinda-order]
+      order-final: [34, [430, 365, 569, 513], "Order #16478645", belinda-order]
+      census-mid: [30, [430, 131, 566, 212], Census, us-census]
+      census-final: [34, [430, 131, 566, 212], Census, us-census]
+    pairs:
+      - [belinda-initial, belinda-final]
+      - [order-initial, order-final]
+      - [census-mid, census-final]
+    queries:
+      - [order-final, "What number is shown on the order for the dining set in the final Context is King diagram?"]
+      - [census-final, "In the complete Context is King diagram, what agency appears above Belinda Smith?"]
+  2401.18059v1:
+    occurrences:
+      example-one: [2, [482, 199, 505, 220], "1", construction-chunk-1]
+      story-one: [7, [275, 209, 306, 233], "1", cinderella-chunk-1]
+      example-two: [2, [505, 199, 528, 220], "2", construction-chunk-2]
+      story-two: [7, [305, 209, 338, 233], "2", cinderella-chunk-2]
+      query-tree: [5, [247, 150, 295, 176], Query, retrieval-query]
+      query-collapsed: [5, [212, 242, 257, 271], Query, retrieval-query]
+    pairs:
+      - [example-one, story-one]
+      - [example-two, story-two]
+      - [query-tree, query-collapsed]
+    queries:
+      - [example-one, "In the tree construction figure, which numbered text chunk appears at the left end of the sequence?"]
+      - [story-two, "In the Cinderella querying-process tree, what is the third leaf number from the left?"]

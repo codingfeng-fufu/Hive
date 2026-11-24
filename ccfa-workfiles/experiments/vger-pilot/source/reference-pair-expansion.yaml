@@ -1,0 +1,27 @@
+# Physical pages are one-based. Parent and mention BBoxes use the top-left 0–1000 grid.
+documents:
+  honor_watch_gs_pro:
+    figures:
+      connection: [7, [237, 189, 896, 445]]
+      cradle-cleanliness: [8, [268, 420, 898, 502]]
+      cradle-storage: [8, [268, 559, 905, 605]]
+    occurrences:
+      cradle-drawing: [connection, [462, 270, 564, 402], charging cradle, charging-cradle]
+      cradle-text: [cradle-storage, [506, 575, 538, 589], base, charging-cradle]
+      connector-drawing: [connection, [608, 312, 749, 353], charging cable, charging-cable]
+      usbc-instruction: [connection, [376, 192, 509, 211], USB Type-C port, cradle-usb-port]
+      usb-cleanliness: [cradle-cleanliness, [688, 449, 749, 463], USB port, cradle-usb-port]
+      usb-storage: [cradle-storage, [391, 575, 452, 589], USB port, cradle-usb-port]
+    pairs:
+      - left: cradle-drawing
+        right: cradle-text
+        evidence: Step 2 calls the separate round base the charging cradle. The storage note says to keep the cradle dry, especially the USB port on the base.
+      - left: connector-drawing
+        right: cradle-text
+        evidence: The drawing separates the charging cable and round base. The storage note treats the base as the charging cradle with the USB port.
+      - left: usbc-instruction
+        right: usb-cleanliness
+        evidence: Step 1 instructs the user to connect the USB Type-C port when charging. The illustration connects the cable to the cradle, whose USB port is named in the cleanliness note.
+      - left: usb-cleanliness
+        right: usb-storage
+        evidence: Both adjacent notes refer to the USB port on the same charging cradle. The second calls the cradle the base.

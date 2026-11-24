@@ -1,0 +1,2 @@
+visrag: visrag_cache:CachedVisRAG
+colpali: visrag_cache:CachedColPali
